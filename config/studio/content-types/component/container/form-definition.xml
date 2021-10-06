@@ -88,7 +88,7 @@
 				</field>
 				<field>
 					<type>checkbox</type>
-					<id>fluid_b</id>
+					<id>isFluid_b</id>
 					<iceId></iceId>
 					<title>Fluid</title>
 					<description></description>
