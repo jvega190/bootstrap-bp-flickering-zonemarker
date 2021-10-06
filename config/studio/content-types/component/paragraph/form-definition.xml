@@ -115,7 +115,7 @@
 					<iceId></iceId>
 					<title>Copy</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</defaultValue>
 					<help></help>
 					<properties>
 						<property>
