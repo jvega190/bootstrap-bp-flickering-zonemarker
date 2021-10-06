@@ -6,7 +6,8 @@
 	<imageThumbnail>undefined</imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
-	<properties>		<property>
+	<properties>
+		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
 			<value>/templates/web/entry.ftl</value>
@@ -25,7 +26,8 @@
 			<type>string</type>
 		</property>
 	</properties>
-	<sections>		<section>
+	<sections>
+		<section>
 			<title>Page Settings</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
@@ -204,7 +206,7 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>title_s</id>
+					<id>title_t</id>
 					<iceId></iceId>
 					<title>Title</title>
 					<description></description>
@@ -253,66 +255,67 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>				<datasource>
-					<type>img-desktop-upload</type>
-					<id>desktopImages</id>
-					<title>Desktop Images</title>
-					<interface>image</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/static-assets/item/images/{yyyy}/{mm}/{dd}/</value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
-					<type>dropTargets</type>
-					<id>dropTargets</id>
-					<title>Drop Targets</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>allowShared</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>allowEmbedded</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>enableBrowse</name>
-							<value>false</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>enableSearch</name>
-							<value>false</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>baseRepositoryPath</name>
-							<value>/site/components</value>
-								<type>string</type>
-						</property>
-						<property>
-							<name>baseBrowsePath</name>
-							<value>/site/components</value>
-								<type>string</type>
-						</property>
-						<property>
-							<name>contentTypes</name>
-							<value>*</value>
-								<type>contentTypes</type>
-						</property>
-						<property>
-							<name>tags</name>
-							<value></value>
-								<type>string</type>
-						</property>
-					</properties>
-				</datasource>
+	<datasources>
+		<datasource>
+			<type>img-desktop-upload</type>
+			<id>desktopImages</id>
+			<title>Desktop Images</title>
+			<interface>image</interface>
+			<properties>
+				<property>
+					<name>repoPath</name>
+					<value>/static-assets/item/images/{yyyy}/{mm}/{dd}/</value>
+					<type>undefined</type>
+				</property>
+			</properties>
+		</datasource>
+		<datasource>
+			<type>dropTargets</type>
+			<id>dropTargets</id>
+			<title>Drop Targets</title>
+			<interface>item</interface>
+			<properties>
+				<property>
+					<name>allowShared</name>
+					<value>true</value>
+					<type>boolean</type>
+				</property>
+				<property>
+					<name>allowEmbedded</name>
+					<value>true</value>
+					<type>boolean</type>
+				</property>
+				<property>
+					<name>enableBrowse</name>
+					<value>false</value>
+					<type>boolean</type>
+				</property>
+				<property>
+					<name>enableSearch</name>
+					<value>false</value>
+					<type>boolean</type>
+				</property>
+				<property>
+					<name>baseRepositoryPath</name>
+					<value>/site/components</value>
+					<type>string</type>
+				</property>
+				<property>
+					<name>baseBrowsePath</name>
+					<value>/site/components</value>
+					<type>string</type>
+				</property>
+				<property>
+					<name>contentTypes</name>
+					<value>*</value>
+					<type>contentTypes</type>
+				</property>
+				<property>
+					<name>tags</name>
+					<value></value>
+					<type>string</type>
+				</property>
+			</properties>
+		</datasource>
 	</datasources>
 </form>
