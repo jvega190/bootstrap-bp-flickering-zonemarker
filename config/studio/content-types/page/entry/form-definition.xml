@@ -1,6 +1,6 @@
 <form>
-	<title>A Page</title>
-	<description>A Simple Page</description>
+	<title>Canvas Page</title>
+	<description>A page you can create from scratch</description>
 	<objectType>page</objectType>
 	<content-type>/page/entry</content-type>
 	<imageThumbnail>undefined</imageThumbnail>
