@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2021-10-06T15:23:35.614Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-06T15:23:35.614Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-06T15:48:02.484Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-06T15:48:02.484Z</lastModifiedDate_dt>
 	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
 	<disabled>false</disabled>
 	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
@@ -37,6 +37,7 @@
 	<isFluid_b>false</isFluid_b>
 	<components_o item-list="true">	<item inline="true">	<key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
 	<value>Row</value>
+	<disableFlattening>false</disableFlattening>
 <component id="f830b94f-a6e9-09eb-9978-daafbfdf63ef">
 	<content-type>/component/row</content-type>
 	<display-template>/templates/web/rowComponent.ftl</display-template>
@@ -47,20 +48,55 @@
 	<file-name>f830b94f-a6e9-09eb-9978-daafbfdf63ef.xml</file-name>
 	<folder-name/>
 	<internal-name>Row</internal-name>
-	<columns_o item-list="true">	<item>	<items_o item-list="true"/>
-	</item>	<item>	<items_o item-list="true"/>
+	<columns_o item-list="true">	<item>	<items_o item-list="true">	<item inline="true">	<key>57a30ade-f167-5a8b-efbe-30ceb0771667</key>
+	<value>Left col heading</value>
+<component id="57a30ade-f167-5a8b-efbe-30ceb0771667">
+	<content-type>/component/heading</content-type>
+	<display-template>/templates/web/headingComponent.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>57a3</objectGroupId>
+	<objectId>57a30ade-f167-5a8b-efbe-30ceb0771667</objectId>
+	<file-name>57a30ade-f167-5a8b-efbe-30ceb0771667.xml</file-name>
+	<folder-name/>
+	<internal-name>Left col heading</internal-name>
+	<text_s>This is a heading</text_s>
+	<createdDate>2021-10-06T15:48:24.707Z</createdDate>
+	<createdDate_dt>2021-10-06T15:48:24.707Z</createdDate_dt>
+	<lastModifiedDate>2021-10-06T15:48:24.707Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-06T15:48:24.707Z</lastModifiedDate_dt>
+</component>
+	</item></items_o>
+	</item>	<item>	<items_o item-list="true">	<item inline="true">	<key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
+	<value>Right Col Image</value>
+<component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
+	<content-type>/component/image</content-type>
+	<display-template>/templates/web/imageComponent.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>eb50</objectGroupId>
+	<objectId>eb50be40-5755-5dfa-0ad0-15367b5cc685</objectId>
+	<file-name>eb50be40-5755-5dfa-0ad0-15367b5cc685.xml</file-name>
+	<folder-name/>
+	<internal-name>Right Col Image</internal-name>
+	<image_s>https://place-hold.it/300</image_s>
+	<createdDate>2021-10-06T15:48:52.103Z</createdDate>
+	<createdDate_dt>2021-10-06T15:48:52.103Z</createdDate_dt>
+	<lastModifiedDate>2021-10-06T15:48:52.103Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-06T15:48:52.103Z</lastModifiedDate_dt>
+</component>
+	</item></items_o>
 	</item></columns_o>
 	<createdDate>2021-10-06T14:10:30.505Z</createdDate>
 	<createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
-	<lastModifiedDate>2021-10-06T15:23:37.202Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-06T15:23:37.202Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-06T15:48:11.292Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-06T15:48:11.292Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></components_o>
 	<createdDate>2021-10-06T14:10:19.538Z</createdDate>
 	<createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
-	<lastModifiedDate>2021-10-06T15:22:31.965Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-06T15:22:31.965Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-06T15:48:07.429Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-06T15:48:07.429Z</lastModifiedDate_dt>
 </component>
 	</item></mainContent_o>
 </page>
