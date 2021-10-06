@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value></value>
+			<value>/templates/web/headingComponent.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
@@ -92,7 +92,7 @@
 					<iceId></iceId>
 					<title>Text</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>This is a heading</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -140,7 +140,7 @@
 					<iceId></iceId>
 					<title>Heading Level</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>h2</defaultValue>
 					<help></help>
 					<properties>
 						<property>
