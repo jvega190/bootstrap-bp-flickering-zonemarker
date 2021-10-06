@@ -92,7 +92,7 @@
 					<iceId></iceId>
 					<title>image</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>https://place-hold.it/300</defaultValue>
 					<help></help>
 					<properties>
 						<property>
