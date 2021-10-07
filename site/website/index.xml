@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2021-10-06T16:47:30.612Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-06T16:47:30.612Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-07T09:06:04.949Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-07T09:06:04.949Z</lastModifiedDate_dt>
 	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
 	<disabled>false</disabled>
 	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
@@ -50,6 +50,7 @@
 	<internal-name>Row</internal-name>
 	<columns_o item-list="true">	<item>	<items_o item-list="true">	<item inline="true">	<key>57a30ade-f167-5a8b-efbe-30ceb0771667</key>
 	<value>Left col heading</value>
+	<disableFlattening>false</disableFlattening>
 <component id="57a30ade-f167-5a8b-efbe-30ceb0771667">
 	<content-type>/component/heading</content-type>
 	<display-template>/templates/web/headingComponent.ftl</display-template>
@@ -67,10 +68,29 @@
 	<lastModifiedDate_dt>2021-10-06T16:48:11.909Z</lastModifiedDate_dt>
 	<headingLevel_s>h2</headingLevel_s>
 </component>
-	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>fff36233-34d9-f476-0a35-00b507b9420b</key>
+	<value>Left col paragraph</value>
+<component id="fff36233-34d9-f476-0a35-00b507b9420b">
+	<content-type>/component/paragraph</content-type>
+	<display-template>/templates/web/paragraphComponent.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fff3</objectGroupId>
+	<objectId>fff36233-34d9-f476-0a35-00b507b9420b</objectId>
+	<file-name>fff36233-34d9-f476-0a35-00b507b9420b.xml</file-name>
+	<folder-name/>
+	<internal-name>Left col paragraph</internal-name>
+	<isLead_b>false</isLead_b>
+	<copy_t>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</copy_t>
+	<createdDate>2021-10-07T09:06:30.728Z</createdDate>
+	<createdDate_dt>2021-10-07T09:06:30.728Z</createdDate_dt>
+	<lastModifiedDate>2021-10-07T09:06:30.728Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-07T09:06:30.728Z</lastModifiedDate_dt>
+</component>
 	</item></items_o>
 	</item>	<item>	<items_o item-list="true">	<item inline="true">	<key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
 	<value>Right Col Image</value>
+	<disableFlattening>false</disableFlattening>
 <component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
 	<content-type>/component/image</content-type>
 	<display-template>/templates/web/imageComponent.ftl</display-template>
@@ -87,19 +107,37 @@
 	<lastModifiedDate>2021-10-06T15:48:52.103Z</lastModifiedDate>
 	<lastModifiedDate_dt>2021-10-06T15:48:52.103Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>4b68e47a-07a3-134f-a540-1b7907080cb0</key>
+	<value>Right col paragraph</value>
+<component id="4b68e47a-07a3-134f-a540-1b7907080cb0">
+	<content-type>/component/paragraph</content-type>
+	<display-template>/templates/web/paragraphComponent.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4b68</objectGroupId>
+	<objectId>4b68e47a-07a3-134f-a540-1b7907080cb0</objectId>
+	<file-name>4b68e47a-07a3-134f-a540-1b7907080cb0.xml</file-name>
+	<folder-name/>
+	<isLead_b>true</isLead_b>
+	<internal-name>Right col paragraph</internal-name>
+	<copy_t>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</copy_t>
+	<createdDate>2021-10-07T09:06:56.097Z</createdDate>
+	<createdDate_dt>2021-10-07T09:06:56.097Z</createdDate_dt>
+	<lastModifiedDate>2021-10-07T09:06:56.097Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-07T09:06:56.097Z</lastModifiedDate_dt>
+</component>
 	</item></items_o>
 	</item></columns_o>
 	<createdDate>2021-10-06T14:10:30.505Z</createdDate>
 	<createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
-	<lastModifiedDate>2021-10-06T16:47:35.756Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-06T16:47:35.756Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-07T09:06:14.809Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-07T09:06:14.809Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 	<createdDate>2021-10-06T14:10:19.538Z</createdDate>
 	<createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
-	<lastModifiedDate>2021-10-06T16:47:33.807Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-06T16:47:33.807Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-07T09:06:09.863Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-07T09:06:09.863Z</lastModifiedDate_dt>
 </component>
 	</item></mainContent_o>
 </page>
