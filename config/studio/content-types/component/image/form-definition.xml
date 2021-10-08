@@ -90,7 +90,7 @@
 					<type>image-picker</type>
 					<id>image_s</id>
 					<iceId></iceId>
-					<title>image</title>
+					<title>Image</title>
 					<description></description>
 					<defaultValue>https://place-hold.it/300</defaultValue>
 					<help></help>
