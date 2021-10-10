@@ -13,8 +13,8 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2021-10-07T09:06:04.949Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-07T09:06:04.949Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-10T10:08:19.736Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-10T10:08:19.736Z</lastModifiedDate_dt>
 	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
 	<disabled>false</disabled>
 	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
@@ -87,7 +87,9 @@
 	<lastModifiedDate>2021-10-07T09:06:30.728Z</lastModifiedDate>
 	<lastModifiedDate_dt>2021-10-07T09:06:30.728Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></items_o>
+	<size_s>-4</size_s>
 	</item>	<item>	<items_o item-list="true">	<item inline="true">	<key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
 	<value>Right Col Image</value>
 	<disableFlattening>false</disableFlattening>
@@ -126,18 +128,20 @@
 	<lastModifiedDate>2021-10-07T09:06:56.097Z</lastModifiedDate>
 	<lastModifiedDate_dt>2021-10-07T09:06:56.097Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></items_o>
+	<size_s>-2</size_s>
 	</item></columns_o>
 	<createdDate>2021-10-06T14:10:30.505Z</createdDate>
 	<createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
-	<lastModifiedDate>2021-10-07T09:06:14.809Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-07T09:06:14.809Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-10T10:08:24.685Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-10T10:08:24.685Z</lastModifiedDate_dt>
 </component>
 	</item></components_o>
 	<createdDate>2021-10-06T14:10:19.538Z</createdDate>
 	<createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
-	<lastModifiedDate>2021-10-07T09:06:09.863Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-07T09:06:09.863Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-10T10:08:21.089Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-10T10:08:21.089Z</lastModifiedDate_dt>
 </component>
 	</item></mainContent_o>
 </page>
