@@ -155,6 +155,39 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>dropdown</type>
+					<id>size_s</id>
+					<iceId></iceId>
+					<title>Size</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>columnSizes</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 					</fields>
 				</field>
 			</fields>
@@ -205,6 +238,29 @@
 							<name>tags</name>
 							<value></value>
 								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>columnSizes</id>
+					<title>Column Sizes</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;-12&quot;,&quot;value&quot;:&quot;100%&quot;},{&quot;key&quot;:&quot;-6&quot;,&quot;value&quot;:&quot;50%&quot;},{&quot;key&quot;:&quot;-4&quot;,&quot;value&quot;:&quot;33%&quot;},{&quot;key&quot;:&quot;-3&quot;,&quot;value&quot;:&quot;25%&quot;},{&quot;key&quot;:&quot;-2&quot;,&quot;value&quot;:&quot;16%&quot;},{&quot;key&quot;:&quot;-1&quot;,&quot;value&quot;:&quot;8%&quot;},{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;Auto&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
+								<type>boolean</type>
 						</property>
 					</properties>
 				</datasource>
