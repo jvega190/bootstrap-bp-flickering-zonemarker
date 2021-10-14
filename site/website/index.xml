@@ -1,67 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/entry</content-type>
-  <display-template>/templates/web/entry.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <placeInNav>false</placeInNav>
-  <file-name>index.xml</file-name>
-  <internal-name>Home</internal-name>
-  <orderDefault_f>-1</orderDefault_f>
-  <objectGroupId>8d7f</objectGroupId>
-  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-  <folder-name/>
-  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
-  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2021-10-14T09:09:25.008Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-14T09:15:39.189Z</lastModifiedDate_dt>
-  <title_t>Crafter CMS Bootstrap Blueprint</title_t>
-  <disabled>false</disabled>
-  <mainContent_o item-list="true">
-    <item>
-      <key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
-      <value>Home Hero</value>
-      <include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item inline="true">
-      <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
-      <value>Container</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
-        <content-type>/component/container</content-type>
-        <display-template>/templates/web/containerComponent.ftl</display-template>
-        <no-template-required>false</no-template-required>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <objectGroupId>2e87</objectGroupId>
-        <objectId>2e8761a9-1268-581b-f8d0-52cad6a73e0a</objectId>
-        <file-name>2e8761a9-1268-581b-f8d0-52cad6a73e0a.xml</file-name>
-        <folder-name/>
-        <internal-name>Container</internal-name>
-        <isFluid_b>false</isFluid_b>
-        <components_o item-list="true">
-          <item inline="true">
-            <key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
-            <value>Row</value>
-            <disableFlattening>false</disableFlattening>
-            <component id="f830b94f-a6e9-09eb-9978-daafbfdf63ef">
-              <content-type>/component/row</content-type>
-              <display-template>/templates/web/rowComponent.ftl</display-template>
-              <no-template-required/>
-              <merge-strategy>inherit-levels</merge-strategy>
-              <objectGroupId>f830</objectGroupId>
-              <objectId>f830b94f-a6e9-09eb-9978-daafbfdf63ef</objectId>
-              <file-name>f830b94f-a6e9-09eb-9978-daafbfdf63ef.xml</file-name>
-              <folder-name/>
-              <internal-name>Row</internal-name>
-              <columns_o item-list="true">
-                <item>
-                  <items_o item-list="true">
-                    <item inline="true">
-                      <key>57a30ade-f167-5a8b-efbe-30ceb0771667</key>
-                      <value>Left col heading</value>
-                      <disableFlattening>false</disableFlattening>
-                      <component id="57a30ade-f167-5a8b-efbe-30ceb0771667">
+	<content-type>/page/entry</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2021-10-14T09:16:18.853Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-14T09:16:18.853Z</lastModifiedDate_dt>
+	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
+	<disabled>false</disabled>
+	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
+	<value>Home Hero</value>
+	<include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
+	<value>Container</value>
+	<disableFlattening>false</disableFlattening>
+<component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
+	<content-type>/component/container</content-type>
+	<display-template>/templates/web/containerComponent.ftl</display-template>
+	<no-template-required>false</no-template-required>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2e87</objectGroupId>
+	<objectId>2e8761a9-1268-581b-f8d0-52cad6a73e0a</objectId>
+	<file-name>2e8761a9-1268-581b-f8d0-52cad6a73e0a.xml</file-name>
+	<folder-name/>
+	<internal-name>Container</internal-name>
+	<isFluid_b>false</isFluid_b>
+	<components_o item-list="true">	<item inline="true">	<key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
+	<value>Row</value>
+	<disableFlattening>false</disableFlattening>
+<component id="f830b94f-a6e9-09eb-9978-daafbfdf63ef">
+	<content-type>/component/row</content-type>
+	<display-template>/templates/web/rowComponent.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f830</objectGroupId>
+	<objectId>f830b94f-a6e9-09eb-9978-daafbfdf63ef</objectId>
+	<file-name>f830b94f-a6e9-09eb-9978-daafbfdf63ef.xml</file-name>
+	<folder-name/>
+	<internal-name>Row</internal-name>
+	<columns_o item-list="true">	<item>	<items_o item-list="true">	<item inline="true">	<key>57a30ade-f167-5a8b-efbe-30ceb0771667</key>
+	<value>Left col heading</value>
+	<disableFlattening>false</disableFlattening>
+<component id="57a30ade-f167-5a8b-efbe-30ceb0771667">
                         <content-type>/component/heading</content-type>
                         <display-template>/templates/web/headingComponent.ftl</display-template>
                         <no-template-required/>
@@ -78,11 +68,10 @@
                         <lastModifiedDate_dt>2021-10-06T16:48:11.909Z</lastModifiedDate_dt>
                         <headingLevel_s>h2</headingLevel_s>
                       </component>
-                    </item>
-                    <item inline="true">
-                      <key>fff36233-34d9-f476-0a35-00b507b9420b</key>
-                      <value>Left col paragraph</value>
-                      <component id="fff36233-34d9-f476-0a35-00b507b9420b">
+	</item>	<item inline="true">	<key>fff36233-34d9-f476-0a35-00b507b9420b</key>
+	<value>Left col paragraph</value>
+	<disableFlattening>false</disableFlattening>
+<component id="fff36233-34d9-f476-0a35-00b507b9420b">
                         <content-type>/component/paragraph</content-type>
                         <display-template>/templates/web/paragraphComponent.ftl</display-template>
                         <no-template-required/>
@@ -99,34 +88,12 @@
                         <lastModifiedDate>2021-10-07T09:06:30.728Z</lastModifiedDate>
                         <lastModifiedDate_dt>2021-10-07T09:06:30.728Z</lastModifiedDate_dt>
                       </component>
-                      <disableFlattening>false</disableFlattening>
-                    </item>
-                  </items_o>
-                  <size_s>-4</size_s>
-                </item>
-                <item>
-                  <items_o item-list="true">
-                    <item datasource="TODO" inline="true">
-                      <key>3a9ab729-5764-4701-bfe2-01d1e281c65d</key>
-                      <value>New Container</value>
-                      <component id="3a9ab729-5764-4701-bfe2-01d1e281c65d">
-                        <content-type>/component/container</content-type>
-                        <display-template>/templates/web/containerComponent.ftl</display-template>
-                        <internal-name><![CDATA[New Container]]></internal-name>
-                        <file-name>3a9ab729-5764-4701-bfe2-01d1e281c65d.xml</file-name>
-                        <merge-strategy>inherit-levels</merge-strategy>
-                        <createdDate_dt>2021-10-14T09:15:39.185Z</createdDate_dt>
-                        <lastModifiedDate_dt>2021-10-14T09:15:39.185Z</lastModifiedDate_dt>
-                        <objectId>3a9ab729-5764-4701-bfe2-01d1e281c65d</objectId>
-                        <isFluid_b>true</isFluid_b>
-                        <components_o/>
-                      </component>
-                    </item>
-                    <item inline="true">
-                      <key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
-                      <value>Right Col Image</value>
-                      <disableFlattening>false</disableFlattening>
-                      <component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
+	</item></items_o>
+	<size_s>-4</size_s>
+	</item>	<item>	<items_o item-list="true">	<item inline="true">	<key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
+	<value>Right Col Image</value>
+	<disableFlattening>false</disableFlattening>
+<component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
                         <content-type>/component/image</content-type>
                         <display-template>/templates/web/imageComponent.ftl</display-template>
                         <no-template-required/>
@@ -142,11 +109,10 @@
                         <lastModifiedDate>2021-10-06T15:48:52.103Z</lastModifiedDate>
                         <lastModifiedDate_dt>2021-10-06T15:48:52.103Z</lastModifiedDate_dt>
                       </component>
-                    </item>
-                    <item inline="true">
-                      <key>4b68e47a-07a3-134f-a540-1b7907080cb0</key>
-                      <value>Right col paragraph</value>
-                      <component id="4b68e47a-07a3-134f-a540-1b7907080cb0">
+	</item>	<item inline="true">	<key>4b68e47a-07a3-134f-a540-1b7907080cb0</key>
+	<value>Right col paragraph</value>
+	<disableFlattening>false</disableFlattening>
+<component id="4b68e47a-07a3-134f-a540-1b7907080cb0">
                         <content-type>/component/paragraph</content-type>
                         <display-template>/templates/web/paragraphComponent.ftl</display-template>
                         <no-template-required/>
@@ -163,24 +129,19 @@
                         <lastModifiedDate>2021-10-07T09:06:56.097Z</lastModifiedDate>
                         <lastModifiedDate_dt>2021-10-07T09:06:56.097Z</lastModifiedDate_dt>
                       </component>
-                      <disableFlattening>false</disableFlattening>
-                    </item>
-                  </items_o>
-                  <size_s>-2</size_s>
-                </item>
-              </columns_o>
-              <createdDate>2021-10-06T14:10:30.505Z</createdDate>
-              <createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
-              <lastModifiedDate>2021-10-10T10:08:24.685Z</lastModifiedDate>
-              <lastModifiedDate_dt>2021-10-14T09:15:39.189Z</lastModifiedDate_dt>
-            </component>
-          </item>
-        </components_o>
-        <createdDate>2021-10-06T14:10:19.538Z</createdDate>
-        <createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
-        <lastModifiedDate>2021-10-10T10:08:21.089Z</lastModifiedDate>
-        <lastModifiedDate_dt>2021-10-10T10:08:21.089Z</lastModifiedDate_dt>
-      </component>
-    </item>
-  </mainContent_o>
+	</item></items_o>
+	<size_s>-2</size_s>
+	</item></columns_o>
+	<createdDate>2021-10-06T14:10:30.505Z</createdDate>
+	<createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
+	<lastModifiedDate>2021-10-14T09:16:25.841Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-14T09:16:25.841Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
+	<createdDate>2021-10-06T14:10:19.538Z</createdDate>
+	<createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
+	<lastModifiedDate>2021-10-14T09:16:23.464Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-14T09:16:23.464Z</lastModifiedDate_dt>
+</component>
+	</item></mainContent_o>
 </page>
