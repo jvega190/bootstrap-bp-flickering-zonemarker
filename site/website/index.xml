@@ -1,50 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/entry</content-type>
-  <display-template>/templates/web/entry.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <placeInNav>false</placeInNav>
-  <file-name>index.xml</file-name>
-  <internal-name>Home</internal-name>
-  <orderDefault_f>-1</orderDefault_f>
-  <objectGroupId>8d7f</objectGroupId>
-  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-  <folder-name/>
-  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
-  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2021-10-14T09:05:30.067Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-14T09:06:47.042Z</lastModifiedDate_dt>
-  <title_t>Crafter CMS Bootstrap Blueprint</title_t>
-  <disabled>false</disabled>
-  <mainContent_o item-list="true">
-    <item datasource="TODO" inline="true">
-      <key>31a5b682-cea7-42ae-8c5e-8a0398088ce0</key>
-      <value>New Container</value>
-      <component id="31a5b682-cea7-42ae-8c5e-8a0398088ce0">
-        <content-type>/component/container</content-type>
-        <display-template>/templates/web/containerComponent.ftl</display-template>
-        <internal-name><![CDATA[New Container]]></internal-name>
-        <file-name>31a5b682-cea7-42ae-8c5e-8a0398088ce0.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2021-10-14T09:06:47.038Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-10-14T09:06:47.038Z</lastModifiedDate_dt>
-        <objectId>31a5b682-cea7-42ae-8c5e-8a0398088ce0</objectId>
-        <isFluid_b>true</isFluid_b>
-        <components_o/>
-      </component>
-    </item>
-    <item>
-      <key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
-      <value>Home Hero</value>
-      <include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item inline="true">
-      <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
-      <value>Container</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
+	<content-type>/page/entry</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2021-10-14T09:09:25.008Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-14T09:09:25.008Z</lastModifiedDate_dt>
+	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
+	<disabled>false</disabled>
+	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
+	<value>Home Hero</value>
+	<include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
+	<value>Container</value>
+	<disableFlattening>false</disableFlattening>
+<component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
         <content-type>/component/container</content-type>
         <display-template>/templates/web/containerComponent.ftl</display-template>
         <no-template-required>false</no-template-required>
@@ -181,6 +161,5 @@
         <lastModifiedDate>2021-10-10T10:08:21.089Z</lastModifiedDate>
         <lastModifiedDate_dt>2021-10-10T10:08:21.089Z</lastModifiedDate_dt>
       </component>
-    </item>
-  </mainContent_o>
+	</item></mainContent_o>
 </page>
