@@ -1,0 +1,17 @@
+.craftercms-is-empty {
+  position: relative;
+  min-height: 100px;
+  min-width: 100px;
+  background-color: var(--bs-light);
+}
+
+.craftercms-is-empty::after {
+  top: 40%;
+  left: 45%;
+  position: absolute;
+  content: "(Add Content Here)";
+}
+
+.create-bottom-spacing {
+  padding-bottom: 50px;
+}
