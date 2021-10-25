@@ -14,10 +14,16 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-10-14T09:16:18.853Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-25T18:44:36.523Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-10-25T18:44:50.576Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
+    <item>
+      <key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
+      <value>Home Hero</value>
+      <include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
     <item inline="true">
       <key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
       <value>Row</value>
@@ -137,12 +143,7 @@
         <lastModifiedDate_dt>2021-10-25T18:44:31.386Z</lastModifiedDate_dt>
       </component>
     </item>
-    <item>
-      <key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
-      <value>Home Hero</value>
-      <include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
+
     <item inline="true">
       <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
       <value>Container</value>
