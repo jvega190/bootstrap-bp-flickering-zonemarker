@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-10-14T09:16:18.853Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-29T13:22:48.903Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-10-29T13:24:01.394Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -113,6 +113,22 @@
           </item>
           <item>
             <items_o item-list="true">
+              <item datasource="TODO" inline="true">
+                <key>492a8fa9-1d4e-4973-b17e-fac5c7f42ad3</key>
+                <value>New Container</value>
+                <component id="492a8fa9-1d4e-4973-b17e-fac5c7f42ad3">
+                  <content-type>/component/container</content-type>
+                  <display-template>/templates/web/containerComponent.ftl</display-template>
+                  <internal-name><![CDATA[New Container]]></internal-name>
+                  <file-name>492a8fa9-1d4e-4973-b17e-fac5c7f42ad3.xml</file-name>
+                  <merge-strategy>inherit-levels</merge-strategy>
+                  <createdDate_dt>2021-10-29T13:24:01.392Z</createdDate_dt>
+                  <lastModifiedDate_dt>2021-10-29T13:24:01.392Z</lastModifiedDate_dt>
+                  <objectId>492a8fa9-1d4e-4973-b17e-fac5c7f42ad3</objectId>
+                  <isFluid_b>true</isFluid_b>
+                  <components_o/>
+                </component>
+              </item>
               <item inline="true">
                 <key>fff36233-34d9-f476-0a35-00b507b9420b</key>
                 <value>Left col paragraph</value>
@@ -185,7 +201,7 @@
         <createdDate>2021-10-06T14:10:30.505Z</createdDate>
         <createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
         <lastModifiedDate>2021-10-14T09:16:25.841Z</lastModifiedDate>
-        <lastModifiedDate_dt>2021-10-25T18:44:31.386Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2021-10-29T13:24:01.393Z</lastModifiedDate_dt>
       </component>
     </item>
 
