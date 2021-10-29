@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-10-29T14:58:05.622Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-29T15:04:30.862Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-10-29T15:09:49.093Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -142,28 +142,6 @@
         <createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
         <lastModifiedDate>2021-10-29T13:26:45.949Z</lastModifiedDate>
         <lastModifiedDate_dt>2021-10-29T15:04:30.862Z</lastModifiedDate_dt>
-      </component>
-    </item>
-    <item inline="true">
-      <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
-      <value>Container</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
-        <content-type>/component/container</content-type>
-        <display-template>/templates/web/containerComponent.ftl</display-template>
-        <no-template-required>false</no-template-required>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <objectGroupId>2e87</objectGroupId>
-        <objectId>2e8761a9-1268-581b-f8d0-52cad6a73e0a</objectId>
-        <file-name>2e8761a9-1268-581b-f8d0-52cad6a73e0a.xml</file-name>
-        <folder-name/>
-        <internal-name>Container</internal-name>
-        <isFluid_b>false</isFluid_b>
-        <components_o item-list="true"/>
-        <createdDate>2021-10-06T14:10:19.538Z</createdDate>
-        <createdDate_dt>2021-10-06T14:10:19.538Z</createdDate_dt>
-        <lastModifiedDate>2021-10-14T09:16:23.464Z</lastModifiedDate>
-        <lastModifiedDate_dt>2021-10-25T18:44:36.004Z</lastModifiedDate_dt>
       </component>
     </item>
   </mainContent_o>
