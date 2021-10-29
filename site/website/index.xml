@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-10-29T14:50:59.414Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-29T14:53:10.694Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-10-29T14:53:20.379Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -230,23 +230,6 @@
         <lastModifiedDate_dt>2021-10-29T13:28:05.505Z</lastModifiedDate_dt>
       </component>
     </item>
-    <item datasource="TODO" inline="true">
-      <key>5691b209-c032-4f43-8750-b1b28f182f41</key>
-      <value>New Container</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="5691b209-c032-4f43-8750-b1b28f182f41">
-        <content-type>/component/container</content-type>
-        <display-template>/templates/web/containerComponent.ftl</display-template>
-        <internal-name><![CDATA[New Container]]></internal-name>
-        <file-name>5691b209-c032-4f43-8750-b1b28f182f41.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2021-10-29T13:20:39.562Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-10-29T13:20:39.562Z</lastModifiedDate_dt>
-        <objectId>5691b209-c032-4f43-8750-b1b28f182f41</objectId>
-        <isFluid_b>true</isFluid_b>
-        <components_o/>
-      </component>
-    </item>
     <item inline="true">
       <key>bd369704-c509-77b5-431e-05e25d5218a9</key>
       <value>Carousel</value>
@@ -273,6 +256,24 @@
         <lastModifiedDate_dt>2021-10-29T14:51:12.417Z</lastModifiedDate_dt>
       </component>
     </item>
+    <item datasource="TODO" inline="true">
+      <key>5691b209-c032-4f43-8750-b1b28f182f41</key>
+      <value>New Container</value>
+      <disableFlattening>false</disableFlattening>
+      <component id="5691b209-c032-4f43-8750-b1b28f182f41">
+        <content-type>/component/container</content-type>
+        <display-template>/templates/web/containerComponent.ftl</display-template>
+        <internal-name><![CDATA[New Container]]></internal-name>
+        <file-name>5691b209-c032-4f43-8750-b1b28f182f41.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2021-10-29T13:20:39.562Z</createdDate_dt>
+        <lastModifiedDate_dt>2021-10-29T13:20:39.562Z</lastModifiedDate_dt>
+        <objectId>5691b209-c032-4f43-8750-b1b28f182f41</objectId>
+        <isFluid_b>true</isFluid_b>
+        <components_o/>
+      </component>
+    </item>
+
     <item inline="true">
       <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
       <value>Container</value>
