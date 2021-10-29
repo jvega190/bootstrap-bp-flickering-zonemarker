@@ -1,98 +1,331 @@
 <form>
-<title>Carousel</title>
-<description></description>
-<content-type>/component/carousel</content-type>
-<objectType>component</objectType>
-<quickCreate>false</quickCreate>
-<quickCreatePath></quickCreatePath>
-<properties>
-<property>
-<name>content-type</name>
-<label>Content Type</label>
-<value>/component/carousel</value>
-<type>string</type>
-</property>
-<property>
-<name>display-template</name>
-<label>Display Template</label>
-<value></value>
-<type>template</type>
-</property>
-<property>
-<name>no-template-required</name>
-<label>No Template Required</label>
-<value></value>
-<type>boolean</type>
-</property>
-<property>
-<name>merge-strategy</name>
-<label>Merge Strategy</label>
-<value>inherit-levels</value>
-<type>string</type>
-</property>
-</properties>
-<sections>
-<section>
-<title>Carousel Properties</title>
-<description></description>
-<defaultOpen>true</defaultOpen>
-<fields>
-<field>
-<type>auto-filename</type>
-<id>file-name</id>
-<iceId></iceId>
-<title>Component ID</title>
-<description></description>
-<defaultValue></defaultValue>
-<help></help>
-<properties>
-<property>
-<name>size</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>maxlength</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>readonly</name>
-<value></value>
-<type>boolean</type>
-</property>
-</properties>
-<constraints>
-</constraints>
-</field>
-<field>
-<type>input</type>
-<id>internal-name</id>
-<iceId></iceId>
-<title>Internal Name</title>
-<description></description>
-<defaultValue></defaultValue>
-<help></help>
-<properties>
-<property>
-<name>size</name>
-<value>50</value>
-<type>int</type>
-</property>
-<property>
-<name>maxlength</name>
-<value>50</value>
-<type>int</type>
-</property>
-</properties>
-<constraints>
-<constraint>
-<name>required</name>
-<value>true</value>
-<type>boolean</type>
-</constraint>
-</constraints>
-</field></fields>
-</section>
-</sections>
+	<title>Carousel</title>
+	<description></description>
+	<objectType>component</objectType>
+	<content-type>/component/carousel</content-type>
+	<imageThumbnail>undefined</imageThumbnail>
+	<quickCreate>false</quickCreate>
+	<quickCreatePath></quickCreatePath>
+	<properties>		<property>
+			<name>display-template</name>
+			<label>Display Template</label>
+			<value>/templates/web/carousel.ftl</value>
+			<type>template</type>
+		</property>
+		<property>
+			<name>no-template-required</name>
+			<label>No Template Required</label>
+			<value></value>
+			<type>boolean</type>
+		</property>
+		<property>
+			<name>merge-strategy</name>
+			<label>Merge Strategy</label>
+			<value>inherit-levels</value>
+			<type>string</type>
+		</property>
+	</properties>
+	<sections>		<section>
+			<title>Carousel Properties</title>
+			<description></description>
+			<defaultOpen>true</defaultOpen>
+			<fields>
+				<field>
+					<type>auto-filename</type>
+					<id>file-name</id>
+					<iceId></iceId>
+					<title>Component ID</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+					</constraints>
+				</field>
+				<field>
+					<type>input</type>
+					<id>internal-name</id>
+					<iceId></iceId>
+					<title>Internal Name</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxlength</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>repeat</type>
+					<id>slides_o</id>
+					<iceId></iceId>
+					<title>Slides</title>
+					<description></description>
+					<minOccurs>1</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>1</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+				<field>
+					<type>numeric-input</type>
+					<id>delayInterval_i</id>
+					<iceId></iceId>
+					<title>Delay Interval</title>
+					<description></description>
+					<defaultValue>1000</defaultValue>
+					<help>How long should the slide stay on in milliseconds.</help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxValue</name>
+							<value></value>
+							<type>float</type>
+						</property>
+						<property>
+							<name>minValue</name>
+							<value>0</value>
+							<type>float</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>image-picker</type>
+					<id>image_s</id>
+					<iceId></iceId>
+					<title>Image</title>
+					<description></description>
+					<defaultValue>https://place-hold.it/600x200</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<type>range</type>
+						</property>
+						<property>
+							<name>thumbnailWidth</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>thumbnailHeight</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value>upload,browse</value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[true]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>rte</type>
+					<id>caption_html</id>
+					<iceId></iceId>
+					<title>Caption</title>
+					<description></description>
+					<defaultValue>Caption</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>width</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>height</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>autoGrow</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSpellCheck</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceRootBlockPTag</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>forceBRTags</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>supportedChannels</name>
+							<value></value>
+							<type>supportedChannels</type>
+						</property>
+						<property>
+							<name>rteConfiguration</name>
+							<value>generic</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>imageManager</name>
+							<value></value>
+							<type>datasource:image</type>
+						</property>
+						<property>
+							<name>videoManager</name>
+							<value></value>
+							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>fileManager</name>
+							<value></value>
+							<type>datasource:item</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+					</fields>
+				</field>
+			</fields>
+		</section>
+	</sections>
+	<datasources>				<datasource>
+					<type>img-desktop-upload</type>
+					<id>upload</id>
+					<title>Upload</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/images/carousel/{objectId}/</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>browse</id>
+					<title>Browse</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
