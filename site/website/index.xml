@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-10-29T13:26:33.974Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-29T13:27:46.394Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-10-29T13:27:53.245Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -89,27 +89,7 @@
       </component>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item inline="true">
-      <key>94c1b7e5-9ed7-c4b7-2059-949487360162</key>
-      <value>New Image</value>
-      <component id="94c1b7e5-9ed7-c4b7-2059-949487360162">
-        <content-type>/component/image</content-type>
-        <display-template>/templates/web/imageComponent.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <objectGroupId>94c1</objectGroupId>
-        <objectId>94c1b7e5-9ed7-c4b7-2059-949487360162</objectId>
-        <file-name>94c1b7e5-9ed7-c4b7-2059-949487360162.xml</file-name>
-        <folder-name/>
-        <internal-name>New Image</internal-name>
-        <alt_s/>
-        <image_s>https://place-hold.it/300</image_s>
-        <createdDate>2021-10-29T13:27:11.143Z</createdDate>
-        <createdDate_dt>2021-10-29T13:27:11.143Z</createdDate_dt>
-        <lastModifiedDate>2021-10-29T13:27:11.143Z</lastModifiedDate>
-        <lastModifiedDate_dt>2021-10-29T13:27:11.143Z</lastModifiedDate_dt>
-      </component>
-    </item>
+
     <item inline="true">
       <key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
       <value>Row</value>
