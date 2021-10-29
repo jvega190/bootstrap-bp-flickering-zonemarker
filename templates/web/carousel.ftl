@@ -12,9 +12,7 @@
 
     <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default -->
     <@crafter.renderRepeatCollection
-      $field="slides_o"
-      $containerAttributes={'class': 'carousel-inner'}
-      $itemAttributes={'class': 'carousel-item'};
+      $field="slides_o" $itemAttributes={'class': 'carousel-item'};
       item, index
     >
       <@crafter.img $field="slides_o.image_s" $index=index src="${item.image_s}" class="d-block w-100" alt="" />
