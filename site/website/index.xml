@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-10-29T14:58:05.622Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-29T15:10:38.598Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-10-29T15:10:41.207Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -42,6 +42,27 @@
           <item>
             <items_o item-list="true">
               <item inline="true">
+                <key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
+                <value>Right Col Image</value>
+                <disableFlattening>false</disableFlattening>
+                <component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
+                  <content-type>/component/image</content-type>
+                  <display-template>/templates/web/imageComponent.ftl</display-template>
+                  <no-template-required/>
+                  <merge-strategy>inherit-levels</merge-strategy>
+                  <objectGroupId>eb50</objectGroupId>
+                  <objectId>eb50be40-5755-5dfa-0ad0-15367b5cc685</objectId>
+                  <file-name>eb50be40-5755-5dfa-0ad0-15367b5cc685.xml</file-name>
+                  <folder-name/>
+                  <internal-name>Right Col Image</internal-name>
+                  <image_s>https://place-hold.it/300</image_s>
+                  <createdDate>2021-10-06T15:48:52.103Z</createdDate>
+                  <createdDate_dt>2021-10-06T15:48:52.103Z</createdDate_dt>
+                  <lastModifiedDate>2021-10-06T15:48:52.103Z</lastModifiedDate>
+                  <lastModifiedDate_dt>2021-10-06T15:48:52.103Z</lastModifiedDate_dt>
+                </component>
+              </item>
+              <item inline="true">
                 <key>fff36233-34d9-f476-0a35-00b507b9420b</key>
                 <value>Left col paragraph</value>
                 <disableFlattening>false</disableFlattening>
@@ -61,27 +82,6 @@
                   <createdDate_dt>2021-10-07T09:06:30.728Z</createdDate_dt>
                   <lastModifiedDate>2021-10-07T09:06:30.728Z</lastModifiedDate>
                   <lastModifiedDate_dt>2021-10-07T09:06:30.728Z</lastModifiedDate_dt>
-                </component>
-              </item>
-              <item inline="true">
-                <key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
-                <value>Right Col Image</value>
-                <disableFlattening>false</disableFlattening>
-                <component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
-                  <content-type>/component/image</content-type>
-                  <display-template>/templates/web/imageComponent.ftl</display-template>
-                  <no-template-required/>
-                  <merge-strategy>inherit-levels</merge-strategy>
-                  <objectGroupId>eb50</objectGroupId>
-                  <objectId>eb50be40-5755-5dfa-0ad0-15367b5cc685</objectId>
-                  <file-name>eb50be40-5755-5dfa-0ad0-15367b5cc685.xml</file-name>
-                  <folder-name/>
-                  <internal-name>Right Col Image</internal-name>
-                  <image_s>https://place-hold.it/300</image_s>
-                  <createdDate>2021-10-06T15:48:52.103Z</createdDate>
-                  <createdDate_dt>2021-10-06T15:48:52.103Z</createdDate_dt>
-                  <lastModifiedDate>2021-10-06T15:48:52.103Z</lastModifiedDate>
-                  <lastModifiedDate_dt>2021-10-06T15:48:52.103Z</lastModifiedDate_dt>
                 </component>
               </item>
             </items_o>
@@ -140,7 +140,7 @@
         <createdDate>2021-10-06T14:10:30.505Z</createdDate>
         <createdDate_dt>2021-10-06T14:10:30.505Z</createdDate_dt>
         <lastModifiedDate>2021-10-29T13:26:45.949Z</lastModifiedDate>
-        <lastModifiedDate_dt>2021-10-29T15:10:38.598Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2021-10-29T15:10:41.207Z</lastModifiedDate_dt>
       </component>
     </item>
   </mainContent_o>
