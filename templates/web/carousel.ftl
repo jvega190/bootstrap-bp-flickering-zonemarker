@@ -1,6 +1,8 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-
+<h1>Hello</h1>
+<#--
 <#assign elementId = "addUniqueIdHere"/>
+
 
 <@crafter.componentRootTag $tag="div" id=elementId class="carousel slide" data-bs-ride="carousel">
     <#-- Insert your head markup here -->
@@ -10,7 +12,7 @@
         </#list>
     </div>
 
-    <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default 
+     Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default 
     <@crafter.renderRepeatCollection
       $field="slides_o"
       $containerAttributes={'class': 'carousel-inner'}
@@ -21,7 +23,7 @@
       <div class="carousel-caption d-none d-md-block">
         <@crafter.div $field="slides_o.caption_html" $index=index>${item.caption_html}</@crafter.h5>
       </div>
-    </@crafter.renderRepeatCollection>-->
+    </@crafter.renderRepeatCollection>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#${elementId}" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -32,4 +34,4 @@
     <span class="visually-hidden">Next</span>
   </button>
 
-</@crafter.componentRootTag>
+</@crafter.componentRootTag>-->
