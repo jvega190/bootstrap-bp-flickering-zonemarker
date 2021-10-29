@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/hero</content-type>
-	<display-template>/templates/web/heroComponent.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>bd28</objectGroupId>
-	<objectId>bd283e3b-3484-6b9e-b2d5-2a9e87128b69</objectId>
-	<file-name>bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</file-name>
-	<folder-name/>
-	<internal-name>Home Hero</internal-name>
-	<title_s>Crafter CMS &amp; Bootstrap</title_s>
-	<copy_t>A majestic combination of power &amp; flexibility to build your experience.</copy_t>
-	<createdDate>2021-10-06T12:30:14.498Z</createdDate>
-	<createdDate_dt>2021-10-06T12:30:14.498Z</createdDate_dt>
-	<lastModifiedDate>2021-10-06T12:30:14.498Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-06T12:30:14.498Z</lastModifiedDate_dt>
+  <content-type>/component/hero</content-type>
+  <display-template>/templates/web/heroComponent.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>bd28</objectGroupId>
+  <objectId>bd283e3b-3484-6b9e-b2d5-2a9e87128b69</objectId>
+  <file-name>bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</file-name>
+  <folder-name/>
+  <internal-name>Home Hero</internal-name>
+  <title_s><![CDATA[Crafter CMS & Bootstrap!]]></title_s>
+  <copy_t>A majestic combination of power &amp; flexibility to build your experience.</copy_t>
+  <createdDate>2021-10-06T12:30:14.498Z</createdDate>
+  <createdDate_dt>2021-10-06T12:30:14.498Z</createdDate_dt>
+  <lastModifiedDate>2021-10-06T12:30:14.498Z</lastModifiedDate>
+  <lastModifiedDate_dt>2021-10-25T18:44:23.886Z</lastModifiedDate_dt>
 </component>
