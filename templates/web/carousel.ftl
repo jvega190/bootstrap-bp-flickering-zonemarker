@@ -1,40 +1,27 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-
-<@crafter.componentRootTag id="addUniqueIdHere" class="carousel">
-  <@crafter.renderRepeatCollection
-    $containerTag="section"
-    $containerAttributes={ "class": "row ${crafter.printIfIsEmptyCollection(contentModel.columns_o)}" }
-    $itemTag="div"
-    $itemAttributes={ "class": "col" }
-    $field="columns_o";
-    <#-- Nested content values passed down by the macro: -->
-    item, index
-  >
-    <@crafter.renderComponentCollection
-      $field="items_o"
-      $fieldCarryover="columns_o"
-      $indexCarryover="${index}"
-      $model=(contentModel + { "items_o": item.items_o })
-    />
-    <@crafter.tag
-      type="hidden"
-      value="col${item.size_s!''}"
-      $tag="input"
-      $field="columns_o.size_s"
-      $index="${index}"
-    />
-  </@crafter.renderRepeatCollection>
-</@crafter.componentRootTag>
-
-<div id="addUniqueIdHere" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
+<@crafter.componentRootTag $tag="div" id="addUniqueIdHere" class="carousel slide" data-bs-ride="carousel">
+    <#-- Insert your head markup here -->
+    <div class="carousel-indicators">
     <#list contentModel.slides_o.item as slide>
         <button type="button" data-bs-target="#addUniqueIdHere" data-bs-slide-to="${slide?index}" aria-label="Slide ${slide?index}"></button>
     </#list>
-  </div>
+    </div>
 
-  <div class="carousel-inner">
-    
+      <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default -->
+    <@crafter.renderRepeatCollection
+      $field="slides_o"
+      $containerAttributes={'class': 'carousel-inner'}
+      $itemAttributes={'class': 'carousel-item'};
+      item, index
+    >
+      <@crafter.div
+        $field="sections_o.section_html"
+        $index=index
+      >
+        ${item.itemField}
+      </@crafter.div>
+    </@crafter.renderRepeatCollection>
+
     <div class="carousel-item active">
       <img src="..." class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
@@ -65,4 +52,5 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+
+</@crafter.componentRootTag>
