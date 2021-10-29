@@ -13,36 +13,11 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2021-10-29T14:56:19.711Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-10-29T14:56:19.711Z</lastModifiedDate_dt>
+	<lastModifiedDate>2021-10-29T14:58:05.622Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-10-29T14:58:05.622Z</lastModifiedDate_dt>
 	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
 	<disabled>false</disabled>
-	<mainContent_o item-list="true">	<item inline="true">	<key>bd369704-c509-77b5-431e-05e25d5218a9</key>
-	<value>Carousel</value>
-<component id="bd369704-c509-77b5-431e-05e25d5218a9">
-        <content-type>/component/carousel</content-type>
-        <display-template>/templates/web/carousel.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <objectGroupId>bd36</objectGroupId>
-        <objectId>bd369704-c509-77b5-431e-05e25d5218a9</objectId>
-        <slides_o item-list="true">
-          <item>
-            <delayInterval_i>1000</delayInterval_i>
-            <image_s>https://place-hold.it/600x200</image_s>
-            <caption_html>&lt;p&gt;Caption&lt;/p&gt;</caption_html>
-          </item>
-        </slides_o>
-        <file-name>bd369704-c509-77b5-431e-05e25d5218a9.xml</file-name>
-        <folder-name/>
-        <internal-name>Carousel</internal-name>
-        <createdDate>2021-10-29T14:51:12.417Z</createdDate>
-        <createdDate_dt>2021-10-29T14:51:12.417Z</createdDate_dt>
-        <lastModifiedDate>2021-10-29T14:51:12.417Z</lastModifiedDate>
-        <lastModifiedDate_dt>2021-10-29T14:51:12.417Z</lastModifiedDate_dt>
-      </component>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
+	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
 	<value>Home Hero</value>
 	<include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
 	<disableFlattening>false</disableFlattening>
