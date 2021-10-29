@@ -1,18 +1,19 @@
-<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <h1>Hello</h1>
 <#--
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
 <#assign elementId = "addUniqueIdHere"/>
 
-
 <@crafter.componentRootTag $tag="div" id=elementId class="carousel slide" data-bs-ride="carousel">
-    <#-- Insert your head markup here -->
+    <#-- Insert your head markup here -- >
     <div class="carousel-indicators">
         <#list contentModel.slides_o.item as slide>
             <button type="button" data-bs-target="#${elementId}" data-bs-slide-to="${slide?index}" aria-label="Slide ${slide?index}"></button>
         </#list>
     </div>
 
-     Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default 
+    <#-- Macro docs @ https://docs.craftercms.org/en/4.0/search.html?q=renderRepeatCollection&check_keywords=yes&area=default -- >
     <@crafter.renderRepeatCollection
       $field="slides_o"
       $containerAttributes={'class': 'carousel-inner'}
