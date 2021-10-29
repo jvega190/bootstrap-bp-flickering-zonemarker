@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-10-14T09:16:18.853Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-10-25T18:45:46.875Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-10-29T13:20:39.572Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -144,6 +144,22 @@
       </component>
     </item>
 
+    <item datasource="TODO" inline="true">
+      <key>5691b209-c032-4f43-8750-b1b28f182f41</key>
+      <value>New Container</value>
+      <component id="5691b209-c032-4f43-8750-b1b28f182f41">
+        <content-type>/component/container</content-type>
+        <display-template>/templates/web/containerComponent.ftl</display-template>
+        <internal-name><![CDATA[New Container]]></internal-name>
+        <file-name>5691b209-c032-4f43-8750-b1b28f182f41.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2021-10-29T13:20:39.562Z</createdDate_dt>
+        <lastModifiedDate_dt>2021-10-29T13:20:39.562Z</lastModifiedDate_dt>
+        <objectId>5691b209-c032-4f43-8750-b1b28f182f41</objectId>
+        <isFluid_b>true</isFluid_b>
+        <components_o/>
+      </component>
+    </item>
     <item inline="true">
       <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
       <value>Container</value>
