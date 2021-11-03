@@ -1,49 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/entry</content-type>
-  <display-template>/templates/web/entry.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <placeInNav>false</placeInNav>
-  <file-name>index.xml</file-name>
-  <internal-name>Home</internal-name>
-  <orderDefault_f>-1</orderDefault_f>
-  <objectGroupId>8d7f</objectGroupId>
-  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-  <folder-name/>
-  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
-  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2021-10-14T09:16:18.853Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-11-03T07:54:06.158Z</lastModifiedDate_dt>
-  <title_t>Crafter CMS Bootstrap Blueprint</title_t>
-  <disabled>false</disabled>
-  <mainContent_o item-list="true">
-    <item datasource="TODO" inline="true">
-      <key>5a06e244-64f4-4380-8619-1c726fe38e92</key>
-      <value>New Carousel</value>
-      <component id="5a06e244-64f4-4380-8619-1c726fe38e92">
-        <content-type>/component/carousel</content-type>
-        <display-template>/templates/web/carousel.ftl</display-template>
-        <internal-name><![CDATA[New Carousel]]></internal-name>
-        <file-name>5a06e244-64f4-4380-8619-1c726fe38e92.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2021-11-03T07:54:06.154Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-11-03T07:54:06.154Z</lastModifiedDate_dt>
-        <objectId>5a06e244-64f4-4380-8619-1c726fe38e92</objectId>
-        <slides_o/>
-      </component>
-    </item>
-    <item>
-      <key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
-      <value>Home Hero</value>
-      <include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item inline="true">
-      <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
-      <value>Container</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
+	<content-type>/page/entry</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2021-11-03T08:03:44.286Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-11-03T08:03:44.286Z</lastModifiedDate_dt>
+	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
+	<disabled>false</disabled>
+	<mainContent_o item-list="true">	<item datasource="TODO" inline="true">	<key>5a06e244-64f4-4380-8619-1c726fe38e92</key>
+	<value>New Carousel</value>
+<component id="5a06e244-64f4-4380-8619-1c726fe38e92">
+	<content-type>/component/carousel</content-type>
+	<display-template>/templates/web/carousel.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Carousel</internal-name>
+	<file-name>5a06e244-64f4-4380-8619-1c726fe38e92.xml</file-name>
+	<createdDate_dt>2021-11-03T08:05:02.684Z</createdDate_dt>
+	<lastModifiedDate_dt>2021-11-03T08:05:02.684Z</lastModifiedDate_dt>
+	<objectId>5a06e244-64f4-4380-8619-1c726fe38e92</objectId>
+	<slides_o item-list="true">	<item>	<delayInterval_i>1000</delayInterval_i>
+	<image_s>https://place-hold.it/600x200</image_s>
+	<caption_html>&lt;p&gt;Caption&lt;/p&gt;</caption_html>
+	</item></slides_o>
+	<folder-name/>
+	<createdDate>2021-11-03T08:05:02.684Z</createdDate>
+	<lastModifiedDate>2021-11-03T08:05:02.684Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
+	<value>Home Hero</value>
+	<include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
+	<value>Container</value>
+	<disableFlattening>false</disableFlattening>
+<component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
         <content-type>/component/container</content-type>
         <display-template>/templates/web/containerComponent.ftl</display-template>
         <no-template-required>false</no-template-required>
@@ -180,6 +182,5 @@
         <lastModifiedDate>2021-10-14T09:16:23.464Z</lastModifiedDate>
         <lastModifiedDate_dt>2021-10-14T09:16:23.464Z</lastModifiedDate_dt>
       </component>
-    </item>
-  </mainContent_o>
+	</item></mainContent_o>
 </page>
