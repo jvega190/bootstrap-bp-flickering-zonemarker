@@ -1,13 +1,18 @@
-
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <#assign rootElementId = "bootstrapCarousel_${contentModel.objectId}" />
 <#assign initialActiveSlideIndex = 0 />
+<#assign rootTagAttributes = {} />
+<#if !modePreview>
+  <#-- Only add this attribute if not in preview. In preview, we initialize the carousel manually
+  to be able to manually cycle or pause based on edit mode being on/off on Crafter CMS -->
+  <#assign rootTagAttributes = { "data-bs-ride":"carousel" } />
+</#if>
 
 <@crafter.componentRootTag
   id=rootElementId
   class="carousel slide"
-  $attrs= {"data-bs-ride":"carousel"}
+  $attrs=rootTagAttributes
   $tag="div"
 >
 
@@ -66,3 +71,20 @@
   </button>
 
 </@crafter.componentRootTag>
+
+<#if modePreview>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const carousel = bootstrap.Carousel.getOrCreateInstance(document.getElementById('${rootElementId}'));
+    carousel.cycle();
+    document.addEventListener('craftercms.editMode', (e) => {
+      const isEditMode = e.detail;
+      if (isEditMode) {
+        carousel.pause();
+      } else {
+        carousel.cycle();
+      }
+    }, false);
+  });
+</script>
+</#if>
