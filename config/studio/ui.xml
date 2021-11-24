@@ -389,7 +389,6 @@
       </setups>
     </configuration>
   </widget>
-
   <references>
     <reference id="craftercms.siteTools">
       <tools>
@@ -459,7 +458,7 @@
         </tool>
       </tools>
     </reference>
-<reference id="craftercms.freemarkerCodeSnippets">
+    <reference id="craftercms.freemarkerCodeSnippets">
 			<contentVariable label="Content variable">
 				<value><![CDATA[${contentModel.VARIABLE_NAME}]]></value>
 			</contentVariable>
@@ -522,12 +521,6 @@
   </body>
 </html>]]></value>
 			</htmlPage>
-      <baseComponent label="Base Component Template">
-        <value><![CDATA[<#import "/templates/system/common/crafter.ftl" as crafter />
-<@crafter.componentRootTag $tag="section">
-  <#-- Insert your head markup here -->
-</@crafter.componentRootTag>]]></value>
-      </baseComponent>
       <specificHTMLTag label="Field (Specific HTML Tag)">
         <value><![CDATA[<@crafter.DESIRED_TAG $field="FIELD_ID">${contentModel.FIELD_ID}</@crafter.DESIRED_TAG>]]></value>
       </specificHTMLTag>
@@ -571,7 +564,7 @@
 />]]></value>
       </breadcrumb>
 	</reference>
-	<reference id="craftercms.groovyCodeSnippets">
+	  <reference id="craftercms.groovyCodeSnippets">
       <accessContentModel label="Access Content variable">
         <value><![CDATA[contentModel.VARIABLE_NAME]]></value>
       </accessContentModel>

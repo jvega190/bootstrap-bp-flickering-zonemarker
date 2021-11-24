@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <content-type>/page/entry</content-type>
+  <display-template>/templates/web/entry.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>062b</objectGroupId>
+  <objectId>062b2293-11d3-90f2-03da-ac9720b8f55f</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>empty</folder-name>
+  <internal-name>Empty Canvas</internal-name>
+  <title_t>Empty Canvas</title_t>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <disabled>false</disabled>
+  <mainContent_o item-list="true">
+    <item datasource="TODO" inline="true">
+      <key>04bd9fcd-6400-4c25-8ffd-975e8311c886</key>
+      <value>New Container</value>
+      <component id="04bd9fcd-6400-4c25-8ffd-975e8311c886">
+        <content-type>/component/container</content-type>
+        <display-template>/templates/web/containerComponent.ftl</display-template>
+        <internal-name><![CDATA[New Container]]></internal-name>
+        <file-name>04bd9fcd-6400-4c25-8ffd-975e8311c886.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2021-11-24T12:43:27.723Z</createdDate_dt>
+        <lastModifiedDate_dt>2021-11-24T12:43:33.071Z</lastModifiedDate_dt>
+        <objectId>04bd9fcd-6400-4c25-8ffd-975e8311c886</objectId>
+        <isFluid_b>true</isFluid_b>
+        <components_o>
+          <item datasource="TODO" inline="true">
+            <key>716cdb74-673f-422a-97ba-55f66d8ea322</key>
+            <value>New Row</value>
+            <component id="716cdb74-673f-422a-97ba-55f66d8ea322">
+              <content-type>/component/row</content-type>
+              <display-template>/templates/web/rowComponent.ftl</display-template>
+              <internal-name><![CDATA[New Row]]></internal-name>
+              <file-name>716cdb74-673f-422a-97ba-55f66d8ea322.xml</file-name>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <createdDate_dt>2021-11-24T12:43:16.096Z</createdDate_dt>
+              <lastModifiedDate_dt>2021-11-24T12:43:16.096Z</lastModifiedDate_dt>
+              <objectId>716cdb74-673f-422a-97ba-55f66d8ea322</objectId>
+              <columns_o/>
+            </component>
+          </item>
+        </components_o>
+      </component>
+    </item>
+  </mainContent_o>
+  <createdDate>2021-11-24T07:12:32.844Z</createdDate>
+  <createdDate_dt>2021-11-24T07:12:32.844Z</createdDate_dt>
+  <lastModifiedDate>2021-11-24T07:55:56.668Z</lastModifiedDate>
+  <lastModifiedDate_dt>2021-11-24T12:43:33.071Z</lastModifiedDate_dt>
+</page>
