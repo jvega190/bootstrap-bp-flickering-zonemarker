@@ -3,7 +3,7 @@
 <@crafter.div class=crafter.printIfPreview('row-component-root')>
   <@crafter.renderRepeatGroup
     $containerTag="section"
-    $containerAttributes={ "class": "row ${crafter.printIfIsEmptyCollection(contentModel.columns_o)}" }
+    $containerAttributes={ "class": "row" }
     $itemTag="div"
     $itemAttributes={ "class": "col" }
     $field="columns_o";

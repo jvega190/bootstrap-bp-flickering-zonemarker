@@ -1,12 +1,13 @@
 <form>
 	<title>Hero</title>
-	<description></description>
+	<description>Large banner with title, caption buttons and icon</description>
 	<objectType>component</objectType>
 	<content-type>/component/hero</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail/>
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
-	<properties>		<property>
+	<quickCreatePath/>
+	<properties>
+		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
 			<value>/templates/web/heroComponent.ftl</value>
@@ -25,7 +26,8 @@
 			<type>string</type>
 		</property>
 	</properties>
-	<sections>		<section>
+	<sections>
+		<section>
 			<title>Hero Properties</title>
 			<description></description>
 			<defaultOpen>true</defaultOpen>
@@ -185,5 +187,5 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources/>
 </form>

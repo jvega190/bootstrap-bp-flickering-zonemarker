@@ -5,8 +5,8 @@
   <#assign initialActiveSlideIndex = 0 />
   <#assign rootTagAttributes = {} />
   <#if !modePreview>
-  <#-- Only add this attribute if not in preview. In preview, we initialize the carousel manually
-  to be able to manually cycle or pause based on edit mode being on/off on Crafter CMS -->
+    <#-- Only add this attribute if not in preview. In preview, we initialize the carousel manually
+    to be able to manually cycle or pause based on edit mode being on/off on Crafter CMS -->
     <#assign rootTagAttributes = { "data-bs-ride":"carousel" } />
   </#if>
 
@@ -69,11 +69,11 @@
         class="d-block w-100"
         alt=""
       />
-        <#if item.caption_html?has_content>
-          <div class="carousel-caption d-none d-md-block">
-            <@crafter.div $field="slides_o.caption_html" $index="${index}">${item.caption_html!''}</@crafter.div>
-          </div>
-        </#if>
+      <#if item.caption_html?has_content>
+        <div class="carousel-caption d-none d-md-block">
+          <@crafter.div $field="slides_o.caption_html" $index="${index}">${item.caption_html!''}</@crafter.div>
+        </div>
+      </#if>
     </@crafter.renderRepeatGroup>
 
     <#if contentModel.showControls_b>
@@ -120,9 +120,7 @@
       height: 200px;
     }
   </style>
-  <@crafter.div
-    class="crafter-carousel-no-items"
-  >
+  <@crafter.div class="crafter-carousel-no-items">
     No items have been added to the carousel.
   </@crafter.div>
 </#if>
