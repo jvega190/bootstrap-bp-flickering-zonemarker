@@ -24,28 +24,6 @@
       <include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item datasource="TODO" inline="true">
-      <key>1585962e-0559-4b78-8588-63e887054862</key>
-      <value>New Accordion</value>
-      <component id="1585962e-0559-4b78-8588-63e887054862">
-        <content-type>/component/accordion</content-type>
-        <display-template>/templates/web/accordion.ftl</display-template>
-        <internal-name><![CDATA[New Accordion]]></internal-name>
-        <file-name>1585962e-0559-4b78-8588-63e887054862.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2021-12-06T17:00:09.053Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-12-06T17:00:09.053Z</lastModifiedDate_dt>
-        <objectId>1585962e-0559-4b78-8588-63e887054862</objectId>
-        <items_o item-list="true">
-          <item>
-            <header_s/>
-            <body_html/>
-          </item>
-        </items_o>
-        <flush_b>false</flush_b>
-        <alwaysOpen_b>false</alwaysOpen_b>
-      </component>
-    </item>
     <item inline="true">
       <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
       <value>Container</value>
