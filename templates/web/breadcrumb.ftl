@@ -1,9 +1,9 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign divider = contentModel.divider_s!'>'/>
 <@crafter.breadcrumb
-<#--  url=contentModel.storeUrl-->
-  url="/site/website"
+  url=contentModel.storeUrl
   containerElementClass="breadcrumb"
   itemWrapperClass="breadcrumb-item"
-  navElementAttributes={'style': '--bs-breadcrumb-divider: \'>\''}
+  navElementAttributes={'style': '--bs-breadcrumb-divider: \'' + divider + '\''}
 />
