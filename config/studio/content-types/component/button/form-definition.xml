@@ -226,7 +226,7 @@
 					<iceId></iceId>
 					<title>Size</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>btn-normal</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -292,7 +292,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;&quot;,&quot;value&quot;:&quot;Normal&quot;},{&quot;key&quot;:&quot;btn-lg&quot;,&quot;value&quot;:&quot;Large&quot;},{&quot;key&quot;:&quot;btn-sm&quot;,&quot;value&quot;:&quot;Small&quot;}]</value>
+							<value>[{&quot;key&quot;:&quot;btn-normal&quot;,&quot;value&quot;:&quot;Normal&quot;},{&quot;key&quot;:&quot;btn-lg&quot;,&quot;value&quot;:&quot;Large&quot;},{&quot;key&quot;:&quot;btn-sm&quot;,&quot;value&quot;:&quot;Small&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
