@@ -150,7 +150,7 @@
 						</property>
 						<property>
 							<name>forceRootBlockPTag</name>
-							<value>true</value>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>

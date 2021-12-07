@@ -5,7 +5,7 @@
   type="button"
   class="btn btn-${contentModel.outlined_b?then('outline-', '')}${contentModel.color_s} ${contentModel.size_s!''}"
 >
-  <@crafter.span $field="text_s">
-    ${contentModel.text_s!'Button'}
+  <@crafter.span $field="text_s" class="${crafter.emptyFieldClass(contentModel.text_s)}">
+    ${contentModel.text_s!''}
   </@crafter.span>
 </@crafter.tag>
