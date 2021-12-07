@@ -3,7 +3,7 @@
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/badge</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
 	<properties>
