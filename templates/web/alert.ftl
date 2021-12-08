@@ -4,7 +4,7 @@
   class="alert ${contentModel.type_s!'alert-primary'} ${(contentModel.showCloseButton_b?then('alert-dismissible', ''))}"
   role="alert"
 >
-  <@crafter.span $field="content_html">
+  <@crafter.span $field="content_html" class="${crafter.emptyFieldClass(contentModel.content_html)}">
     ${contentModel.content_html!''}
   </@crafter.span>
 

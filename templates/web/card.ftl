@@ -9,11 +9,11 @@
       ${contentModel.headerContent_html}
     </@crafter.div>
   </#if>
-  <#if contentModel.bodyContent_html?has_content>
-    <@crafter.div $field="bodyContent_html" class="card-body">
-      ${contentModel.bodyContent_html}
-    </@crafter.div>
-  </#if>
+
+  <@crafter.div $field="bodyContent_html" class="card-body ${crafter.emptyFieldClass(contentModel.bodyContent_html)}">
+    ${contentModel.bodyContent_html}
+  </@crafter.div>
+
   <#if contentModel.footerContent_html?has_content>
     <@crafter.div $field="footerContent_html" class="card-footer">
       ${contentModel.footerContent_html}
