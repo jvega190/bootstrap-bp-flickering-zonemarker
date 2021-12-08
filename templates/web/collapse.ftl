@@ -1,5 +1,7 @@
-<div class="collapse" id="collapseExample">
+<#import "/templates/system/common/crafter.ftl" as crafter />
+
+<@crafter.div class="collapse bootstrap-collapse" id="${contentModel.id_s!''}">
   <div class="card card-body">
-    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    <@crafter.renderComponentCollection $field="content_o" />
   </div>
-</div>
+</@crafter.div>
