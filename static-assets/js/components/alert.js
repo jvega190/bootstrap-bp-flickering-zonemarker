@@ -1,34 +1,11 @@
-window.addEventListener('DOMContentLoaded', () => {
-  const closeButtons = document.querySelectorAll('.alert .btn-close');
+(function() {
+  const closeButtons = document.querySelectorAll('.ice-alert .btn-close');
+  const utils = iceBootstrap.utils;
 
-  const onKeyup = (e) => {
-    if (e.key === 'z') {
-      buttonsSetAttribute('data-bs-dismiss', '');
-    }
-  };
-  const onKeydown = (e) => {
-    if (e.key === 'z') {
-      buttonsSetAttribute('data-bs-dismiss', 'alert');
-    }
-  };
-
-  const buttonsSetAttribute = (attribute, value) => {
-    closeButtons.forEach((button) => {
-      button.setAttribute(attribute, value);
-    })
-  };
-
-  document.addEventListener('craftercms.editMode', (e) => {
-    const isEditMode = e.detail;
-
-    if (isEditMode) {
-      document.addEventListener('keydown', onKeydown, false);
-      document.addEventListener('keyup', onKeyup, false);
-      buttonsSetAttribute('data-bs-dismiss', '');
-    } else {
-      document.removeEventListener('keydown', onKeydown, false);
-      document.removeEventListener('keyup', onKeyup, false);
-      buttonsSetAttribute('data-bs-dismiss', 'alert');
-    }
+  iceBootstrap.register('alert', {
+    iceBypassOn: () => utils.nodeListSetAttribute(closeButtons, 'data-bs-dismiss', 'alert'),
+    iceBypassOff: () => utils.nodeListRemoveAttribute(closeButtons, 'data-bs-dismiss'),
+    onEditModeOn: () => utils.nodeListRemoveAttribute(closeButtons, 'data-bs-dismiss'),
+    onEditModeOff: () => utils.nodeListSetAttribute(closeButtons, 'data-bs-dismiss', 'alert')
   });
-});
+})();

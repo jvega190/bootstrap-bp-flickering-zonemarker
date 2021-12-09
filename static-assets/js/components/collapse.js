@@ -1,19 +1,8 @@
-window.addEventListener('DOMContentLoaded', () => {
-  const toggleButtons = document.querySelectorAll('.btn[data-bs-toggle]');
-
-  const buttonsSetAttribute = (attribute, value) => {
-    toggleButtons.forEach((button) => {
-      button.setAttribute(attribute, value);
-    })
-  };
-
-  document.addEventListener('craftercms.editMode', (e) => {
-    const isEditMode = e.detail;
-
-    if (isEditMode) {
-      buttonsSetAttribute('data-bs-toggle', '');
-    } else {
-      buttonsSetAttribute('data-bs-toggle', 'collapse');
-    }
+(function() {
+  const toggleButtons = document.querySelectorAll('.btn[data-bs-toggle="collapse"]');
+  const utils = iceBootstrap.utils;
+  iceBootstrap.register('collapse', {
+    onEditModeOn: () => utils.nodeListRemoveAttribute(toggleButtons, 'data-bs-toggle'),
+    onEditModeOff: () => utils.nodeListSetAttribute(toggleButtons, 'data-bs-toggle', 'collapse')
   });
-});
+})();

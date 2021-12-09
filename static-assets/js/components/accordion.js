@@ -1,29 +1,7 @@
-window.addEventListener('DOMContentLoaded', () => {
+(function() {
   const accordionsState = {};
   const accordions = document.querySelectorAll('.accordion');
-
-  const buttonsSetAttribute = (buttons, attribute, value) => {
-    buttons.forEach((button) => {
-      button.setAttribute(attribute, value);
-    })
-  };
-
-  const onKeyup = (e) => {
-    if (e.key === 'z') {
-      accordions.forEach((accordion) => {
-        const buttons = accordion.querySelectorAll('.accordion-button');
-        buttonsSetAttribute(buttons, 'data-bs-toggle', '')
-      });
-    }
-  };
-  const onKeydown = (e) => {
-    if (e.key === 'z') {
-      accordions.forEach((accordion) => {
-        const buttons = accordion.querySelectorAll('.accordion-button');
-        buttonsSetAttribute(buttons, 'data-bs-toggle', 'collapse')
-      });
-    }
-  };
+  const utils = iceBootstrap.utils;
 
   // Populate accordionsState
   accordions.forEach((accordion) => {
@@ -68,16 +46,20 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  document.addEventListener('craftercms.editMode', (e) => {
-    const isEditMode = e.detail;
-    if (isEditMode) {
-      disableAccordionsToggle();
-      document.addEventListener('keydown', onKeydown, false);
-      document.addEventListener('keyup', onKeyup, false);
-    } else {
-      enableAccordionsToggle();
-      document.removeEventListener('keydown', onKeydown, false);
-      document.removeEventListener('keyup', onKeyup, false);
-    }
+  iceBootstrap.register('accordion', {
+    iceBypassOn: () => {
+      accordions.forEach((accordion) => {
+        const buttons = accordion.querySelectorAll('.accordion-button');
+        utils.nodeListSetAttribute(buttons, 'data-bs-toggle', 'collapse');
+      });
+    },
+    iceBypassOff: () => {
+      accordions.forEach((accordion) => {
+        const buttons = accordion.querySelectorAll('.accordion-button');
+        utils.nodeListRemoveAttribute(buttons, 'data-bs-toggle');
+      });
+    },
+    onEditModeOn: () => disableAccordionsToggle(),
+    onEditModeOff: () => enableAccordionsToggle()
   });
-});
+})();

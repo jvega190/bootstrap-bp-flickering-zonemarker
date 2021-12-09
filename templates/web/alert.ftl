@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <@crafter.div
-  class="alert ${contentModel.type_s!'alert-primary'} ${(contentModel.showCloseButton_b?then('alert-dismissible', ''))}"
+  class="alert ice-alert ${contentModel.type_s!'alert-primary'} ${(contentModel.showCloseButton_b?then('alert-dismissible', ''))}"
   role="alert"
 >
   <@crafter.span $field="content_html" class="${crafter.emptyFieldClass(contentModel.content_html)}">
