@@ -5,7 +5,7 @@
 <@crafter.div>
   <@crafter.renderRepeatGroup
     $field="items_o"
-    $containerAttributes={ "class": "${containerClasses}", "id": "accordion-${contentModel.objectId}" }
+    $containerAttributes={ "class": "${containerClasses} ice-accordion", "id": "accordion-${contentModel.objectId}" }
     $itemAttributes={ "class": "accordion-item" };
     item, index
   >

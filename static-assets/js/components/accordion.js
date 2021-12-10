@@ -1,6 +1,6 @@
 (function() {
   const accordionsState = {};
-  const accordions = document.querySelectorAll('.accordion');
+  const accordions = document.querySelectorAll('.ice-accordion');
   const utils = iceBootstrap.utils;
 
   // Populate accordionsState
