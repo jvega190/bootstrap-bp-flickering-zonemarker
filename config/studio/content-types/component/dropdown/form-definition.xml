@@ -3,7 +3,7 @@
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/dropdown</content-type>
-	<imageThumbnail />
+	<imageThumbnail/>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
 	<properties>
