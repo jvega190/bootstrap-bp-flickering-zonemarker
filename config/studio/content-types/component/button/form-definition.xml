@@ -255,10 +255,10 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>collapseID_Toggle_s</id>
+					<id>target_s</id>
 					<iceId></iceId>
-					<title>Collapse ID - Toggle</title>
-					<description>If you want to link the button to a collapse component, enter the id of the element. If not, leave empty.</description>
+					<title>Target - Id</title>
+					<description>If the button targets another element, set the id of the element.</description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
@@ -298,6 +298,39 @@
 							<name>pattern</name>
 							<value><![CDATA[^[a-zA-Z][a-zA-Z-_0-9]*$]]></value>
 							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>toggleType_s</id>
+					<iceId></iceId>
+					<title>Toggle Type</title>
+					<description>Defines what component will be toggled.</description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>toggleTypes</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value>true</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -341,6 +374,29 @@
 						<property>
 							<name>options</name>
 							<value>[{&quot;key&quot;:&quot;btn-normal&quot;,&quot;value&quot;:&quot;Normal&quot;},{&quot;key&quot;:&quot;btn-lg&quot;,&quot;value&quot;:&quot;Large&quot;},{&quot;key&quot;:&quot;btn-sm&quot;,&quot;value&quot;:&quot;Small&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>toggleTypes</id>
+					<title>Toggle Types</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;collapse&quot;,&quot;value&quot;:&quot;Collapse&quot;},{&quot;key&quot;:&quot;modal&quot;,&quot;value&quot;:&quot;Modal&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
