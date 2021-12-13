@@ -1,11 +1,15 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.span>
+<@crafter.span class="${contentModel.vertical_b?then('d-flex align-items-start', '')}">
   <@crafter.renderRepeatGroup
     $field="items_o"
     $containerTag="ul"
     $itemTag="li"
-    $containerAttributes={ "class": "nav nav-tabs", "role": "tablist", "id": "myTab" }
+    $containerAttributes={
+      "class": "nav ${contentModel.vertical_b?then('flex-column nav-pills me-3', 'nav-tabs')} justify-content-${contentModel.tabsHorizontalAlignment_s} ${contentModel.pills_b?then('nav-pills', '')} ${contentModel.fill_b?then('nav-fill', '')}",
+      "role": "tablist",
+      "id": "myTab"
+    }
     $itemAttributes={ "class": "nav-item", "role": "presentation" };
     item, index
   >
