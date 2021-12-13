@@ -1,6 +1,6 @@
 <content-type name="/component/nav" is-wcm-type="true">
-	<label>Nav</label>
-	<form>/component/nav</form>
+	<label>Navbar</label>
+	<form>/component/navbar</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
