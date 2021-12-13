@@ -1,4 +1,4 @@
-<content-type name="/component/nav" is-wcm-type="true">
+<content-type name="/component/navbar" is-wcm-type="true">
 	<label>Navbar</label>
 	<form>/component/navbar</form>
 	<form-path>simple</form-path>
