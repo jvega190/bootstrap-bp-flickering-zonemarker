@@ -10,7 +10,7 @@
     <property>
       <name>display-template</name>
       <label>Display Template</label>
-      <value>/templates/web/spinnerComponent.ftl</value>
+      <value>/templates/web/spinner.ftl</value>
       <type>template</type>
     </property>
     <property>
