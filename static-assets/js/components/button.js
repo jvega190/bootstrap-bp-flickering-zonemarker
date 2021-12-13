@@ -9,12 +9,14 @@
   // Populate buttonsProps
   buttons.forEach((button) => {
     const id = button.getAttribute('id');
-    const bsProps = getButtonBSProps(button);
-    const buttonBSProps = {};
-    bsProps.forEach((prop) => {
-      buttonBSProps[prop] = button.getAttribute(prop);
-    });
-    buttonsBSProps[id] = buttonBSProps;
+    if (Boolean(id)) {
+      const bsProps = getButtonBSProps(button);
+      const buttonBSProps = {};
+      bsProps.forEach((prop) => {
+        buttonBSProps[prop] = button.getAttribute(prop);
+      });
+      buttonsBSProps[id] = buttonBSProps;
+    }
   });
 
   const clearButtonsBSProps = () => {
