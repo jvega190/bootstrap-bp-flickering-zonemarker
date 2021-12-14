@@ -26,7 +26,12 @@
         <@crafter.h5 class="modal-title ${crafter.emptyFieldClass(contentModel.title_s)}" id="label-${contentModel.objectId}">
           ${contentModel.title_s}
         </@crafter.h5>
-        <button type="button" class="btn-close ice-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button
+          id="modal-${contentModel.objectId}" <#-- id used for ice buttons to disable functionality while on editMode -->
+          type="button"
+          class="btn-close ice-btn" data-bs-dismiss="modal" aria-label="Close"
+        >
+        </button>
       </div>
       <div class="modal-body">
         <@crafter.renderComponentCollection $field="content_o" />

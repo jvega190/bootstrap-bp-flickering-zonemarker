@@ -8,7 +8,7 @@
 <#if contentModel.toggleType_s?has_content>
   <#assign extraAttributes = extraAttributes + { "data-bs-toggle": contentModel.toggleType_s } />
   <#if contentModel.toggleType_s == 'collapse'>
-    <#assign extraAttributes = extraAttributes + { "aria-expanded": "false", "aria-controls": contentModel.collapseID_Toggle_s } />
+    <#assign extraAttributes = extraAttributes + { "aria-expanded": "false", "aria-controls": contentModel.target_s } />
   </#if>
 </#if>
 

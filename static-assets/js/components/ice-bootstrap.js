@@ -19,7 +19,11 @@
   };
 
   const register = (name, data) => {
-    editModeAction();
+    if (isEditMode) {
+      data.onEditModeOn?.();
+    } else {
+      data.onEditModeOff?.();
+    }
     registeredComponents[name] = data;
   };
 
@@ -75,7 +79,6 @@
   });
 
   window.iceBootstrap = {
-    isEditMode,
     register,
     deRegister,
     utils: {

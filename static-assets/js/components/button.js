@@ -31,10 +31,12 @@
   const restoreButtonsBSProps = () => {
     buttons.forEach((button) => {
       const id = button.getAttribute('id');
-      const buttonBSProps = buttonsBSProps[id];
-      Object.entries(buttonBSProps).forEach(([key, value]) => {
-        button.setAttribute(key, value);
-      });
+      if (Boolean(id)) {
+        const buttonBSProps = buttonsBSProps[id];
+        Object.entries(buttonBSProps).forEach(([key, value]) => {
+          button.setAttribute(key, value);
+        });
+      }
     });
   }
 
