@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.div class="card" style="width: 18rem;">
+<@crafter.div class="card">
   <#if contentModel.topImage_s?has_content>
     <@crafter.img src="${contentModel.topImage_s}" class="card-img-top" />
   </#if>
@@ -10,9 +10,9 @@
     </@crafter.div>
   </#if>
 
-  <@crafter.div $field="bodyContent_html" class="card-body ${crafter.emptyFieldClass(contentModel.bodyContent_html)}">
-    ${contentModel.bodyContent_html}
-  </@crafter.div>
+  <div class="card-body">
+    <@crafter.renderComponentCollection $field="bodyContent_o" />
+  </div>
 
   <#if contentModel.footerContent_html?has_content>
     <@crafter.div $field="footerContent_html" class="card-footer">
