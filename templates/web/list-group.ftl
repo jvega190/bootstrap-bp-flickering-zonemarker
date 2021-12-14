@@ -12,7 +12,7 @@
 <@crafter.div>
   <@crafter.renderRepeatGroup
     $field="items_o"
-    $containerAttributes={ "class": "list-group ${contentModel.flush_b?then('list-group-flish', '')} ${contentModel.numbered_b?then('list-group-numbered', '')} ${contentModel.horizontal_b?then('list-group-horizontal', '')}" }
+    $containerAttributes={ "class": "list-group ${contentModel.flush_b?then('list-group-flush', '')} ${contentModel.numbered_b?then('list-group-numbered', '')} ${contentModel.horizontal_b?then('list-group-horizontal', '')}" }
     $nthItemAttributes=attributesByIndex
     $containerTag="ul"
     $itemTag="li";
