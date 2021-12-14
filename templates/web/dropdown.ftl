@@ -22,9 +22,13 @@
     item, index
   >
     <#if item.type_s == 'dropdown-item'>
-      <a class="dropdown-item" href="${item.link_s}">${item.text_s!''}</a>
+      <@crafter.a $field="items_o.text_s" $index=index class="dropdown-item" href="${item.link_s}">
+        ${item.text_s!''}
+      </@crafter.a>
     <#elseif item.type_s == 'dropdown-header'>
-      <h6 class="dropdown-header">${item.text_s!''}</h6>
+      <@crafter.h6 $field="items_o.text_s" $index=index class="dropdown-header">
+        ${item.text_s!''}
+      </@crafter.h6>
     <#elseif item.type_s == 'dropdown-divider'>
       <hr class="dropdown-divider" />
     </#if>
