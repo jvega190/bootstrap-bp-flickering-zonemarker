@@ -88,54 +88,6 @@
 				</field>
 				<field>
 					<type>input</type>
-					<id>formId_s</id>
-					<iceId></iceId>
-					<title>Form Id</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>input</type>
 					<id>title_s</id>
 					<iceId></iceId>
 					<title>Title</title>
@@ -203,6 +155,39 @@
 						</property>
 					</properties>
 					<fields>
+				<field>
+					<type>dropdown</type>
+					<id>type_s</id>
+					<iceId></iceId>
+					<title>Type</title>
+					<description></description>
+					<defaultValue>text</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>types</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 				<field>
 					<type>input</type>
 					<id>fieldLabel_s</id>
@@ -300,35 +285,10 @@
 					</constraints>
 				</field>
 				<field>
-					<type>checkbox</type>
-					<id>required_b</id>
-					<iceId></iceId>
-					<title>Required</title>
-					<description>This value will add the 'required' attribute to your input.</description>
-					<defaultValue>false</defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-					</fields>
-				</field>
-				<field>
 					<type>input</type>
-					<id>messageLabel_s</id>
+					<id>helpBlock_s</id>
 					<iceId></iceId>
-					<title>Message Label</title>
+					<title>Help Block</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -371,6 +331,31 @@
 							<type>string</type>
 						</constraint>
 					</constraints>
+				</field>
+				<field>
+					<type>checkbox</type>
+					<id>required_b</id>
+					<iceId></iceId>
+					<title>Required</title>
+					<description>This value will add the 'required' attribute to your input.</description>
+					<defaultValue>false</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+					</fields>
 				</field>
 				<field>
 					<type>input</type>
@@ -423,5 +408,28 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>key-value-list</type>
+					<id>types</id>
+					<title>Types</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Text&quot;},{&quot;key&quot;:&quot;textarea&quot;,&quot;value&quot;:&quot;Textarea&quot;},{&quot;key&quot;:&quot;checkbox&quot;,&quot;value&quot;:&quot;Checkbox&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
