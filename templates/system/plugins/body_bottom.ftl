@@ -5,4 +5,5 @@
   <script src="/static-assets/js/components/collapse.js"></script>
   <script src="/static-assets/js/components/dropdown.js"></script>
   <script src="/static-assets/js/components/button.js"></script>
+  <script src="/static-assets/js/components/form.js"></script>
 </#if>
