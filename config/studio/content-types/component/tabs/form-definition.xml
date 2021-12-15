@@ -92,12 +92,12 @@
 					<iceId></iceId>
 					<title>Items</title>
 					<description></description>
-					<minOccurs>0</minOccurs>
+					<minOccurs>1</minOccurs>
 					<maxOccurs>*</maxOccurs>
 					<properties>
 						<property>
 							<name>minOccurs</name>
-							<value>0</value>
+							<value>1</value>
 							<type>string</type>
 						</property>
 						<property>
