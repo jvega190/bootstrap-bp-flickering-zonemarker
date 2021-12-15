@@ -135,6 +135,54 @@
 					</constraints>
 				</field>
 				<field>
+					<type>numeric-input</type>
+					<id>topImageHeight_i</id>
+					<iceId></iceId>
+					<title>Top Image Height (In pixels)</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>size</name>
+							<value>50</value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>maxValue</name>
+							<value></value>
+							<type>float</type>
+						</property>
+						<property>
+							<name>minValue</name>
+							<value></value>
+							<type>float</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
 					<type>rte</type>
 					<id>headerContent_html</id>
 					<iceId></iceId>

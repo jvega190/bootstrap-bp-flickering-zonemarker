@@ -1,8 +1,13 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <@crafter.div class="card">
+  <#assign imageHeight = (contentModel.topImageHeight_i?has_content)?then(contentModel.topImageHeight_i + 'px', 'auto') />
   <#if contentModel.topImage_s?has_content>
-    <@crafter.img src="${contentModel.topImage_s}" class="card-img-top" />
+    <@crafter.img
+      src="${contentModel.topImage_s}"
+      class="card-img-top"
+      style="height: ${imageHeight}; object-fit: cover;"
+    />
   </#if>
   <#if contentModel.headerContent_html?has_content>
     <@crafter.div $field="headerContent_html" class="card-header">
