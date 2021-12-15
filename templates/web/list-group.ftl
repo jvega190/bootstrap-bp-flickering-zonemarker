@@ -2,11 +2,18 @@
 
 <#assign attributesByIndex = {} />
 <@crafter.forEach contentModel.items_o; item, index>
-  <#assign itemClasses = "list-group-item ${item.active_b?then('active', '')} ${item.disabled_b?then('disabled', '')} list-group-item-${item.color_s!'default'}" />
-  <#assign
-    <#-- Used later on the renderRepeatGroup nthItemAttributes. -->
-    attributesByIndex = attributesByIndex + { index: { "class": itemClasses } }
-  />
+  <#assign itemClasses = "list-group-item ${(contentModel.actionableItems_b)?then('list-group-item-action', '')} ${item.active_b?then('active', '')} ${item.disabled_b?then('disabled', '')} list-group-item-${item.color_s!'default'}" />
+  <#if contentModel.actionableItems_b>
+    <#assign
+      <#-- Used later on the renderRepeatGroup nthItemAttributes. -->
+      attributesByIndex = attributesByIndex + { index: { "class": itemClasses, "href": item.link_s!'#' } }
+    />
+  <#else>
+    <#assign
+      <#-- Used later on the renderRepeatGroup nthItemAttributes. -->
+      attributesByIndex = attributesByIndex + { index: { "class": itemClasses } }
+    />
+  </#if>
 </@crafter.forEach>
 
 <@crafter.div>
@@ -14,8 +21,7 @@
     $field="items_o"
     $containerAttributes={ "class": "list-group ${contentModel.flush_b?then('list-group-flush', '')} ${contentModel.numbered_b?then('list-group-numbered', '')} ${contentModel.horizontal_b?then('list-group-horizontal', '')}" }
     $nthItemAttributes=attributesByIndex
-    $containerTag="ul"
-    $itemTag="li";
+    $itemTag="${contentModel.actionableItems_b?then('a', 'div')}";
     item, index
   >
     <@crafter.renderComponentCollection
