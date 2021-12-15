@@ -13,8 +13,8 @@
   <folder-name/>
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2021-12-15T18:24:59.608Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-15T18:24:59.608Z</lastModifiedDate_dt>
+  <lastModifiedDate>2021-12-15T22:09:42.723Z</lastModifiedDate>
+  <lastModifiedDate_dt>2021-12-15T22:09:42.723Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -116,7 +116,7 @@
                         <internal-name>New Carousel</internal-name>
                         <file-name>5a06e244-64f4-4380-8619-1c726fe38e92.xml</file-name>
                         <createdDate_dt>2021-11-03T08:05:02.684Z</createdDate_dt>
-                        <lastModifiedDate_dt>2021-11-11T15:50:52.346Z</lastModifiedDate_dt>
+                        <lastModifiedDate_dt>2021-12-15T22:09:44.335Z</lastModifiedDate_dt>
                         <objectId>5a06e244-64f4-4380-8619-1c726fe38e92</objectId>
                         <slides_o item-list="true">
                           <item>
@@ -132,12 +132,14 @@
                         </slides_o>
                         <folder-name/>
                         <createdDate>2021-11-03T08:05:02.684Z</createdDate>
-                        <lastModifiedDate>2021-11-11T15:50:52.346Z</lastModifiedDate>
+                        <lastModifiedDate>2021-12-15T22:09:44.335Z</lastModifiedDate>
                         <showControls_b>true</showControls_b>
                         <showIndicators_b>true</showIndicators_b>
                         <crossfade_b>false</crossfade_b>
                         <darkMode_b>false</darkMode_b>
                         <disableTouchSwiping_b>false</disableTouchSwiping_b>
+                        <height_i>100</height_i>
+                        <imagesFit_s>cover</imagesFit_s>
                       </component>
                     </item>
                   </items_o>
