@@ -138,7 +138,7 @@
                         <crossfade_b>false</crossfade_b>
                         <darkMode_b>false</darkMode_b>
                         <disableTouchSwiping_b>false</disableTouchSwiping_b>
-                        <height_i>100</height_i>
+                        <height_i/>
                         <imagesFit_s>cover</imagesFit_s>
                       </component>
                     </item>
