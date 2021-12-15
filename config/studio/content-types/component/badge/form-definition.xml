@@ -216,10 +216,7 @@
 				</property>
 				<property>
 					<name>options</name>
-					<value>[{&quot;key&quot;:&quot;bg-primary&quot;,&quot;value&quot;:&quot;Primary&quot;},{&quot;key&quot;:&quot;bg-secondary&quot;,&quot;value&quot;:&quot;Secondary&quot;},{&quot;key&quot;:&quot;bg-success&quot;,&quot;value&quot;:&quot;Success&quot;},{&quot;key&quot;:&quot;bg-danger&quot;,&quot;value&quot;:&quot;Danger&quot;},{&quot;key&quot;:&quot;bg-warning
-						text-dark&quot;,&quot;value&quot;:&quot;Warning&quot;},{&quot;key&quot;:&quot;bg-info text-dark&quot;,&quot;value&quot;:&quot;Info&quot;},{&quot;key&quot;:&quot;bg-light
-						text-dark&quot;,&quot;value&quot;:&quot;Light&quot;},{&quot;key&quot;:&quot;bg-dark&quot;,&quot;value&quot;:&quot;Dark&quot;}]
-					</value>
+					<value>[{&quot;key&quot;:&quot;bg-primary&quot;,&quot;value&quot;:&quot;Primary&quot;},{&quot;key&quot;:&quot;bg-secondary&quot;,&quot;value&quot;:&quot;Secondary&quot;},{&quot;key&quot;:&quot;bg-success&quot;,&quot;value&quot;:&quot;Success&quot;},{&quot;key&quot;:&quot;bg-danger&quot;,&quot;value&quot;:&quot;Danger&quot;},{&quot;key&quot;:&quot;bg-warning text-dark&quot;,&quot;value&quot;:&quot;Warning&quot;},{&quot;key&quot;:&quot;bg-info text-dark&quot;,&quot;value&quot;:&quot;Info&quot;},{&quot;key&quot;:&quot;bg-light text-dark&quot;,&quot;value&quot;:&quot;Light&quot;},{&quot;key&quot;:&quot;bg-dark&quot;,&quot;value&quot;:&quot;Dark&quot;}]</value>
 					<type>keyValueMap</type>
 				</property>
 				<property>
