@@ -8,11 +8,14 @@
       <#if contentModel.brandImage_s?has_content>
         <@crafter.img
           $field="brandImage_s"
-          src="${contentModel.brandImage_s}" alt="${contentModel.brandText_s!''}" width="30" height="24"
+          src="${contentModel.brandImage_s}"
+          alt="${contentModel.brandText_s!''}"
+          width="${contentModel.brandImageWidth_i!'30'}"
+          height="${contentModel.brandImageHeight_i!'24'}"
         />
       </#if>
       <#if contentModel.brandText_s?has_content>
-        <@crafter.span $field="brandText_s">${contentModel.brandText_s}</@crafter.span>
+        <@crafter.span $field="brandText_s">${contentModel.brandText_s!''}</@crafter.span>
       </#if>
     </a>
     <button
