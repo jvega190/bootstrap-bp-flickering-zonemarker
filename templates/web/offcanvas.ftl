@@ -20,8 +20,6 @@
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <div>
-      <@crafter.renderComponentCollection $field="content_o" />
-    </div>
+    <@crafter.renderComponentCollection $field="content_o" />
   </div>
 </@crafter.div>
