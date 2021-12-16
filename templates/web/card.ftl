@@ -4,9 +4,10 @@
   <#assign imageHeight = (contentModel.topImageHeight_i?has_content)?then(contentModel.topImageHeight_i + 'px', 'auto') />
   <#if contentModel.topImage_s?has_content>
     <@crafter.img
+      $field="topImage_s"
       src="${contentModel.topImage_s}"
       class="card-img-top"
-      style="height: ${imageHeight}; object-fit: cover;"
+      style="height: ${imageHeight}; object-fit: ${contentModel.topImageFit_s!''};"
     />
   </#if>
   <#if contentModel.headerContent_html?has_content>

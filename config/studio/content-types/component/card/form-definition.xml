@@ -421,6 +421,39 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>dropdown</type>
+					<id>topImageFit_s</id>
+					<iceId></iceId>
+					<title>Top Image Fit</title>
+					<description></description>
+					<defaultValue>cover</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>objectFits</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 	</sections>
@@ -517,6 +550,29 @@
 						<property>
 							<name>options</name>
 							<value>[{&quot;key&quot;:&quot;left&quot;,&quot;value&quot;:&quot;Left&quot;},{&quot;key&quot;:&quot;center&quot;,&quot;value&quot;:&quot;Center&quot;},{&quot;key&quot;:&quot;end&quot;,&quot;value&quot;:&quot;Right&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>objectFits</id>
+					<title>Object Fits</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;none&quot;,&quot;value&quot;:&quot;None&quot;},{&quot;key&quot;:&quot;fill&quot;,&quot;value&quot;:&quot;Fill&quot;},{&quot;key&quot;:&quot;contain&quot;,&quot;value&quot;:&quot;Contain&quot;},{&quot;key&quot;:&quot;cover&quot;,&quot;value&quot;:&quot;Cover&quot;},{&quot;key&quot;:&quot;scale-down&quot;,&quot;value&quot;:&quot;Scale Down&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
