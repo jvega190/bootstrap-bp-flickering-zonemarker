@@ -1,10 +1,12 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign objectId = contentModel.objectId />
+
 <@crafter.div class="${contentModel.direction_s!'dropdown'} ice-dropdown">
   <button
     class="btn btn-${contentModel.color_s!'primary'} ${contentModel.size_s!''} dropdown-toggle"
     type="button"
-    id="dropdownMenuButton1"
+    id="${objectId}-dropdownMenuButton"
     data-bs-toggle="dropdown"
     aria-expanded="false"
   >
@@ -16,7 +18,7 @@
   <#assign containerClasses = 'dropdown-menu ' + contentModel.darkDropdown_b?then('dropdown-menu-dark', '') />
   <@crafter.renderRepeatGroup
     $field="items_o"
-    $containerAttributes={ "class": containerClasses, "aria-labelledby": "dropdownMenuButton1" }
+    $containerAttributes={ "class": containerClasses, "aria-labelledby": "${objectId}-dropdownMenuButton" }
     $containerTag="ul"
     $itemTag="li";
     item, index
