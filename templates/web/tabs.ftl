@@ -7,8 +7,7 @@
     $itemTag="li"
     $containerAttributes={
       "class": "nav ${contentModel.vertical_b?then('flex-column nav-pills me-3', 'nav-tabs')} justify-content-${contentModel.tabsHorizontalAlignment_s} ${contentModel.pills_b?then('nav-pills', '')} ${contentModel.fill_b?then('nav-fill', '')}",
-      "role": "tablist",
-      "id": "myTab"
+      "role": "tablist"
     }
     $itemAttributes={ "class": "nav-item", "role": "presentation" };
     item, index
@@ -49,7 +48,7 @@
 
   <@crafter.renderRepeatGroup
     $field="items_o"
-    $containerAttributes={ "class": "tab-content", "id": "myTabContent" }
+    $containerAttributes={ "class": "tab-content" }
     $nthItemAttributes=attributesByIndex;
     item, index
   >
