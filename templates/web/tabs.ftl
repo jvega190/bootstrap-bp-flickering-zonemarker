@@ -1,5 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign objectId = contentModel.objectId />
+
 <@crafter.span class="${contentModel.vertical_b?then('d-flex align-items-start', '')}">
   <@crafter.renderRepeatGroup
     $field="items_o"
@@ -14,12 +16,12 @@
   >
     <button
       class="ice-btn nav-link ${(index == 0)?then('active', '')}"
-      id="tabs-${contentModel.objectId}-${index}-tab"
+      id="tabs-${objectId}-${index}-tab"
       data-bs-toggle="tab"
-      data-bs-target="#tabs-${contentModel.objectId}-${index}"
+      data-bs-target="#tabs-${objectId}-${index}"
       type="button"
       role="tab"
-      aria-controls="tabs-${contentModel.objectId}-${index}"
+      aria-controls="tabs-${objectId}-${index}"
       aria-selected="${(index == 0)?then('true', 'false')}"
     >
       <@crafter.span $field="items_o.title_s" $index="${index}" class="${crafter.emptyFieldClass(item.title_s)}">
@@ -39,8 +41,8 @@
         {
           "class": itemClasses,
           "role": "tabpanel",
-          "id": "tabs-${contentModel.objectId}-${index}",
-          "aria-labelledby": "tabs-${contentModel.objectId}-${index}-tab"
+          "id": "tabs-${objectId}-${index}",
+          "aria-labelledby": "tabs-${objectId}-${index}-tab"
         }
       }
     />

@@ -1,5 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign objectId = contentModel.objectId />
+
 <@crafter.nav class="navbar navbar-expand-lg navbar-${contentModel.textColor_s} bg-${contentModel.backgroundColor_s} ${contentModel.placement_s}">
   <div class="container-fluid">
     <a class="ice-btn navbar-brand" <#if contentModel.brand_link_s?has_content>href="${contentModel.brand_link_s}"</#if>>
@@ -17,14 +19,14 @@
       class="ice-btn navbar-toggler"
       type="button"
       data-bs-toggle="collapse"
-      data-bs-target="#navbar-${contentModel.objectId}"
-      aria-controls="navbar-${contentModel.objectId}"
+      data-bs-target="#navbar-${objectId}"
+      aria-controls="navbar-${objectId}"
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbar-${contentModel.objectId}">
+    <div class="collapse navbar-collapse" id="navbar-${objectId}">
       <@crafter.navigation
         showNavElement=false
         url="${contentModel.url_s!'/site/website'}"

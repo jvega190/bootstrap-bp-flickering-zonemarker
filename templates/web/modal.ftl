@@ -1,7 +1,9 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign objectId = contentModel.objectId />
+
 <#assign modalAttributes = {
-  'aria-labelledby': 'label-${contentModel.objectId}',
+  'aria-labelledby': 'label-${objectId}',
   'aria-hidden': 'true'
 } />
 
@@ -23,11 +25,11 @@
   >
     <div class="modal-content">
       <div class="modal-header">
-        <@crafter.h5 class="modal-title ${crafter.emptyFieldClass(contentModel.title_s)}" id="label-${contentModel.objectId}">
+        <@crafter.h5 class="modal-title ${crafter.emptyFieldClass(contentModel.title_s)}" id="label-${objectId}">
           ${contentModel.title_s}
         </@crafter.h5>
         <button
-          id="modal-${contentModel.objectId}" <#-- id used for ice buttons to disable functionality while on editMode -->
+          id="modal-${objectId}" <#-- id used for ice buttons to disable functionality while on editMode -->
           type="button"
           class="btn-close ice-btn" data-bs-dismiss="modal" aria-label="Close"
         >
