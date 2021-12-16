@@ -44,10 +44,12 @@
     </#if>
 
     <@crafter.forEach contentModel.slides_o; slide, index>
-      <#assign
-        <#-- Used later on the renderRepeatGroup nthItemAttributes. -->
-        attributesByIndex = attributesByIndex + { index: { "data-bs-interval": "${(slide.delayInterval_i??)?then(slide.delayInterval_i?c, '1000')}" } }
-      />
+      <#if slide.delayInterval_i??>
+        <#assign
+          <#-- Used later on the renderRepeatGroup nthItemAttributes. -->
+          attributesByIndex = attributesByIndex + { index: { "data-bs-interval": "${slide.delayInterval_i?c}" } }
+        />
+      </#if>
     </@crafter.forEach>
 
     <#assign attributesByIndex = attributesByIndex + {
