@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<@crafter.div class="card">
+<@crafter.div class="card text-${contentModel.textAlignment_s!''}">
   <#assign imageHeight = (contentModel.topImageHeight_i?has_content)?then(contentModel.topImageHeight_i + 'px', 'auto') />
   <#if contentModel.topImage_s?has_content>
     <@crafter.img
