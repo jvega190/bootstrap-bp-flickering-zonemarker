@@ -222,6 +222,29 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>checkbox</type>
+					<id>showAsButton_b</id>
+					<iceId />
+					<title>Show As Button</title>
+					<description />
+					<defaultValue>false</defaultValue>
+					<help />
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value />
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 	</sections>
