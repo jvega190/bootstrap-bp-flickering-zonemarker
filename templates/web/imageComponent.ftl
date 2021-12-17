@@ -9,6 +9,10 @@
 </#if>
 <#assign imageStyles = imageStyles + "object-fit: " + contentModel.objectFit_s />
 
+<#if contentModel.imageLink_s?has_content>
+  <a href="${contentModel.imageLink_s}">
+</#if>
+
 <@crafter.span>
   <@crafter.img
     $field="image_s"
@@ -18,3 +22,7 @@
     style="${imageStyles}"
   />
 </@crafter.span>
+
+<#if imageLink_s?has_content>
+  </a>
+</#if>
