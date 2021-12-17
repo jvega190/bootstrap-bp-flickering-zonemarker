@@ -29,7 +29,7 @@
       $fieldCarryover="items_o"
       $indexCarryover="${index}"
       $containerAttributes={ "class": "d-inline-block" }
-      $model=(contentModel + { "content_o": item.content_o })
+      $collection=item.content_o
     />
   </@crafter.renderRepeatGroup>
 </@crafter.div>

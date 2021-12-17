@@ -58,7 +58,7 @@
       $field="content_o"
       $fieldCarryover="items_o"
       $indexCarryover="${index}"
-      $model=(contentModel + { "content_o": item.content_o })
+      $collection=item.content_o
     />
   </@crafter.renderRepeatGroup>
 </@crafter.span>

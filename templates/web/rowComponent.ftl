@@ -25,7 +25,7 @@
       $fieldCarryover="columns_o"
       $indexCarryover="${index}"
       $itemAttributes=columnItemsAttributes
-      $model=(contentModel + { "items_o": item.items_o })
+      $collection=item.items_o
     />
   </@crafter.renderRepeatGroup>
 </@crafter.div>
