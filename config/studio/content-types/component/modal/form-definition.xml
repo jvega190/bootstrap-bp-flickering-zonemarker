@@ -1,11 +1,11 @@
 <form>
 	<title>Modal</title>
-	<description></description>
+	<description />
 	<objectType>component</objectType>
 	<content-type>/component/modal</content-type>
-	<imageThumbnail>undefined</imageThumbnail>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath />
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Modal Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -89,11 +89,11 @@
 				<field>
 					<type>input</type>
 					<id>id_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -107,7 +107,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -137,11 +137,11 @@
 				<field>
 					<type>input</type>
 					<id>title_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Title</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -155,7 +155,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -185,20 +185,20 @@
 				<field>
 					<type>node-selector</type>
 					<id>content_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Content</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -208,22 +208,22 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>disableFlattening</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useSingleValueFilename</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useMVS</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -238,11 +238,11 @@
 				<field>
 					<type>dropdown</type>
 					<id>size_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Size</title>
-					<description></description>
+					<description />
 					<defaultValue>modal-default</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -251,12 +251,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -272,21 +272,22 @@
 		</section>
 		<section>
 			<title>Footer Buttons</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>checkbox</type>
 					<id>showCloseButton_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Show Close Button</title>
-					<description>If enabled, a close button with show in the  dialog's footer.</description>
+					<description
+          >If enabled, a close button with show in the  dialog's footer.</description>
 					<defaultValue>true</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -301,11 +302,11 @@
 				<field>
 					<type>input</type>
 					<id>closeButtonText_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Close Button Text</title>
-					<description></description>
+					<description />
 					<defaultValue>Close</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -319,7 +320,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -349,20 +350,20 @@
 				<field>
 					<type>node-selector</type>
 					<id>buttons_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Buttons</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -372,22 +373,22 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>disableFlattening</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useSingleValueFilename</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useMVS</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -403,21 +404,22 @@
 		</section>
 		<section>
 			<title>Advanced Options</title>
-			<description></description>
+			<description />
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
 					<type>checkbox</type>
 					<id>staticBackdrop_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Static Backdrop</title>
-					<description>Enable it to make the modal not to close when clicking outside of it.</description>
+					<description
+          >Enable it to make the modal not to close when clicking outside of it.</description>
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -432,15 +434,15 @@
 				<field>
 					<type>checkbox</type>
 					<id>verticallyCentered_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Vertically Centered</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -455,15 +457,15 @@
 				<field>
 					<type>checkbox</type>
 					<id>fullscreen_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Fullscreen</title>
-					<description></description>
+					<description />
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -521,7 +523,7 @@
 						</property>
 						<property>
 							<name>tags</name>
-							<value></value>
+							<value />
 								<type>string</type>
 						</property>
 					</properties>
@@ -569,7 +571,7 @@
 						</property>
 						<property>
 							<name>tags</name>
-							<value></value>
+							<value />
 								<type>string</type>
 						</property>
 					</properties>
@@ -582,17 +584,19 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;modal-default&quot;,&quot;value&quot;:&quot;Default&quot;},{&quot;key&quot;:&quot;modal-sm&quot;,&quot;value&quot;:&quot;Small&quot;},{&quot;key&quot;:&quot;modal-lg&quot;,&quot;value&quot;:&quot;Large&quot;},{&quot;key&quot;:&quot;modal-xl&quot;,&quot;value&quot;:&quot;Extra Large&quot;}]</value>
+							<value
+          >[{&quot;key&quot;:&quot;modal-default&quot;,&quot;value&quot;:&quot;Default&quot;},{&quot;key&quot;:&quot;modal-sm&quot;,&quot;value&quot;:&quot;Small&quot;},{&quot;key&quot;:&quot;modal-lg&quot;,&quot;value&quot;:&quot;Large&quot;},{&quot;key&quot;:&quot;modal-xl&quot;,&quot;value&quot;:&quot;Extra Large&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value />
 								<type>boolean</type>
 						</property>
 					</properties>

@@ -3,9 +3,9 @@
 	<description>Large banner with title, caption buttons and icon</description>
 	<objectType>component</objectType>
 	<content-type>/component/hero</content-type>
-	<imageThumbnail/>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath/>
+	<quickCreatePath />
 	<properties>
 		<property>
 			<name>display-template</name>
@@ -16,7 +16,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -29,17 +29,17 @@
 	<sections>
 		<section>
 			<title>Hero Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -53,7 +53,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -63,11 +63,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -91,30 +91,32 @@
 				<field>
 					<type>image-picker</type>
 					<id>image_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Image</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value
+              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value
+              >{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>thumbnailWidth</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>thumbnailHeight</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -124,7 +126,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -139,11 +141,11 @@
 				<field>
 					<type>input</type>
 					<id>title_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Title</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -157,7 +159,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -187,11 +189,11 @@
 				<field>
 					<type>textarea</type>
 					<id>copy_t</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Copy</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>cols</name>
@@ -215,7 +217,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -235,20 +237,20 @@
 				<field>
 					<type>node-selector</type>
 					<id>buttons_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Buttons</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -258,22 +260,22 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>disableFlattening</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useSingleValueFilename</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useMVS</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -289,17 +291,17 @@
 		</section>
 		<section>
 			<title>Advanced Options</title>
-			<description></description>
+			<description />
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
 					<type>numeric-input</type>
 					<id>imageWidth_i</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Image Width (in pixels)</title>
-					<description></description>
+					<description />
 					<defaultValue>200</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -308,7 +310,7 @@
 						</property>
 						<property>
 							<name>maxValue</name>
-							<value></value>
+							<value />
 							<type>float</type>
 						</property>
 						<property>
@@ -318,7 +320,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -343,11 +345,11 @@
 				<field>
 					<type>numeric-input</type>
 					<id>imageHeight_i</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Image Height (in pixels)</title>
-					<description></description>
+					<description />
 					<defaultValue>100</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -356,7 +358,7 @@
 						</property>
 						<property>
 							<name>maxValue</name>
-							<value></value>
+							<value />
 							<type>float</type>
 						</property>
 						<property>
@@ -366,7 +368,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -465,7 +467,7 @@
 						</property>
 						<property>
 							<name>tags</name>
-							<value></value>
+							<value />
 								<type>string</type>
 						</property>
 					</properties>

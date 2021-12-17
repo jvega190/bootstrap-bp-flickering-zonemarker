@@ -1,11 +1,11 @@
 <form>
 	<title>Dropdown</title>
-	<description></description>
+	<description />
 	<objectType>component</objectType>
 	<content-type>/component/dropdown</content-type>
-	<imageThumbnail/>
+	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath />
 	<properties>
 		<property>
 			<name>display-template</name>
@@ -16,7 +16,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -29,17 +29,17 @@
 	<sections>
 		<section>
 			<title>Dropdown Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -53,7 +53,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -63,11 +63,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -91,11 +91,11 @@
 				<field>
 					<type>input</type>
 					<id>buttontext_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Button text</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -109,7 +109,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -139,9 +139,9 @@
 				<field>
 					<type>repeat</type>
 					<id>items_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Items</title>
-					<description></description>
+					<description />
 					<minOccurs>0</minOccurs>
 					<maxOccurs>*</maxOccurs>
 					<properties>
@@ -160,11 +160,11 @@
 						<field>
 							<type>input</type>
 							<id>text_s</id>
-							<iceId></iceId>
+							<iceId />
 							<title>Text</title>
-							<description></description>
-							<defaultValue></defaultValue>
-							<help></help>
+							<description />
+							<defaultValue />
+							<help />
 							<properties>
 								<property>
 									<name>size</name>
@@ -178,7 +178,7 @@
 								</property>
 								<property>
 									<name>readonly</name>
-									<value></value>
+									<value />
 									<type>boolean</type>
 								</property>
 								<property>
@@ -208,11 +208,11 @@
 						<field>
 							<type>input</type>
 							<id>link_s</id>
-							<iceId></iceId>
+							<iceId />
 							<title>Link</title>
-							<description></description>
+							<description />
 							<defaultValue>#</defaultValue>
-							<help></help>
+							<help />
 							<properties>
 								<property>
 									<name>size</name>
@@ -226,7 +226,7 @@
 								</property>
 								<property>
 									<name>readonly</name>
-									<value></value>
+									<value />
 									<type>boolean</type>
 								</property>
 								<property>
@@ -256,15 +256,15 @@
 						<field>
 							<type>checkbox</type>
 							<id>disabled_b</id>
-							<iceId></iceId>
+							<iceId />
 							<title>Disabled</title>
-							<description></description>
+							<description />
 							<defaultValue>false</defaultValue>
-							<help></help>
+							<help />
 							<properties>
 								<property>
 									<name>readonly</name>
-									<value></value>
+									<value />
 									<type>boolean</type>
 								</property>
 							</properties>
@@ -279,11 +279,11 @@
 						<field>
 							<type>dropdown</type>
 							<id>type_s</id>
-							<iceId></iceId>
+							<iceId />
 							<title>Type</title>
-							<description></description>
+							<description />
 							<defaultValue>dropdown-item</defaultValue>
-							<help></help>
+							<help />
 							<properties>
 								<property>
 									<name>datasource</name>
@@ -292,12 +292,12 @@
 								</property>
 								<property>
 									<name>emptyvalue</name>
-									<value></value>
+									<value />
 									<type>boolean</type>
 								</property>
 								<property>
 									<name>readonly</name>
-									<value></value>
+									<value />
 									<type>boolean</type>
 								</property>
 							</properties>
@@ -314,11 +314,11 @@
 				<field>
 					<type>dropdown</type>
 					<id>color_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Color</title>
-					<description></description>
+					<description />
 					<defaultValue>primary</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -327,7 +327,7 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -348,17 +348,17 @@
 		</section>
 		<section>
 			<title>Advanced Options</title>
-			<description></description>
+			<description />
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
 					<type>dropdown</type>
 					<id>size_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Size</title>
-					<description></description>
+					<description />
 					<defaultValue>btn-normal</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -367,12 +367,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -387,15 +387,15 @@
 				<field>
 					<type>checkbox</type>
 					<id>darkDropdown_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Dark Dropdown</title>
 					<description>Enable it to match a dark navbar or custom style.</description>
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -410,11 +410,11 @@
 				<field>
 					<type>dropdown</type>
 					<id>direction_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Direction</title>
 					<description>Position where the dropdown menus will be shown.</description>
 					<defaultValue>dropdown</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -423,12 +423,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -452,17 +452,19 @@
 			<properties>
 				<property>
 					<name>dataType</name>
-					<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+					<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 					<type>dropdown</type>
 				</property>
 				<property>
 					<name>options</name>
-					<value>[{&quot;key&quot;:&quot;primary&quot;,&quot;value&quot;:&quot;Primary&quot;},{&quot;key&quot;:&quot;secondary&quot;,&quot;value&quot;:&quot;Secondary&quot;},{&quot;key&quot;:&quot;success&quot;,&quot;value&quot;:&quot;Success&quot;},{&quot;key&quot;:&quot;info&quot;,&quot;value&quot;:&quot;Info&quot;},{&quot;key&quot;:&quot;warning&quot;,&quot;value&quot;:&quot;Warning&quot;},{&quot;key&quot;:&quot;danger&quot;,&quot;value&quot;:&quot;Danger&quot;}]</value>
+					<value
+          >[{&quot;key&quot;:&quot;primary&quot;,&quot;value&quot;:&quot;Primary&quot;},{&quot;key&quot;:&quot;secondary&quot;,&quot;value&quot;:&quot;Secondary&quot;},{&quot;key&quot;:&quot;success&quot;,&quot;value&quot;:&quot;Success&quot;},{&quot;key&quot;:&quot;info&quot;,&quot;value&quot;:&quot;Info&quot;},{&quot;key&quot;:&quot;warning&quot;,&quot;value&quot;:&quot;Warning&quot;},{&quot;key&quot;:&quot;danger&quot;,&quot;value&quot;:&quot;Danger&quot;}]</value>
 					<type>keyValueMap</type>
 				</property>
 				<property>
 					<name>showkeys</name>
-					<value></value>
+					<value />
 					<type>boolean</type>
 				</property>
 			</properties>
@@ -475,17 +477,19 @@
 			<properties>
 				<property>
 					<name>dataType</name>
-					<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+					<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 					<type>dropdown</type>
 				</property>
 				<property>
 					<name>options</name>
-					<value>[{&quot;key&quot;:&quot;btn-normal&quot;,&quot;value&quot;:&quot;Normal&quot;},{&quot;key&quot;:&quot;btn-lg&quot;,&quot;value&quot;:&quot;Large&quot;},{&quot;key&quot;:&quot;btn-sm&quot;,&quot;value&quot;:&quot;Small&quot;}]</value>
+					<value
+          >[{&quot;key&quot;:&quot;btn-normal&quot;,&quot;value&quot;:&quot;Normal&quot;},{&quot;key&quot;:&quot;btn-lg&quot;,&quot;value&quot;:&quot;Large&quot;},{&quot;key&quot;:&quot;btn-sm&quot;,&quot;value&quot;:&quot;Small&quot;}]</value>
 					<type>keyValueMap</type>
 				</property>
 				<property>
 					<name>showkeys</name>
-					<value></value>
+					<value />
 					<type>boolean</type>
 				</property>
 			</properties>
@@ -498,17 +502,19 @@
 			<properties>
 				<property>
 					<name>dataType</name>
-					<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+					<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 					<type>dropdown</type>
 				</property>
 				<property>
 					<name>options</name>
-					<value>[{&quot;key&quot;:&quot;dropdown&quot;,&quot;value&quot;:&quot;Down&quot;},{&quot;key&quot;:&quot;dropup&quot;,&quot;value&quot;:&quot;Up&quot;},{&quot;key&quot;:&quot;dropend&quot;,&quot;value&quot;:&quot;Right&quot;},{&quot;key&quot;:&quot;dropstart&quot;,&quot;value&quot;:&quot;Left&quot;}]</value>
+					<value
+          >[{&quot;key&quot;:&quot;dropdown&quot;,&quot;value&quot;:&quot;Down&quot;},{&quot;key&quot;:&quot;dropup&quot;,&quot;value&quot;:&quot;Up&quot;},{&quot;key&quot;:&quot;dropend&quot;,&quot;value&quot;:&quot;Right&quot;},{&quot;key&quot;:&quot;dropstart&quot;,&quot;value&quot;:&quot;Left&quot;}]</value>
 					<type>keyValueMap</type>
 				</property>
 				<property>
 					<name>showkeys</name>
-					<value></value>
+					<value />
 					<type>boolean</type>
 				</property>
 			</properties>
@@ -521,17 +527,19 @@
 			<properties>
 				<property>
 					<name>dataType</name>
-					<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+					<value
+          >[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
 					<type>dropdown</type>
 				</property>
 				<property>
 					<name>options</name>
-					<value>[{&quot;key&quot;:&quot;dropdown-item&quot;,&quot;value&quot;:&quot;Regular Item&quot;},{&quot;key&quot;:&quot;dropdown-header&quot;,&quot;value&quot;:&quot;Header (Only Text field is needed)&quot;},{&quot;key&quot;:&quot;dropdown-divider&quot;,&quot;value&quot;:&quot;Divider (None of the other fields are needed)&quot;}]</value>
+					<value
+          >[{&quot;key&quot;:&quot;dropdown-item&quot;,&quot;value&quot;:&quot;Regular Item&quot;},{&quot;key&quot;:&quot;dropdown-header&quot;,&quot;value&quot;:&quot;Header (Only Text field is needed)&quot;},{&quot;key&quot;:&quot;dropdown-divider&quot;,&quot;value&quot;:&quot;Divider (None of the other fields are needed)&quot;}]</value>
 					<type>keyValueMap</type>
 				</property>
 				<property>
 					<name>showkeys</name>
-					<value></value>
+					<value />
 					<type>boolean</type>
 				</property>
 			</properties>

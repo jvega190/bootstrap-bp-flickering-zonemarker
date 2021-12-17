@@ -1,11 +1,11 @@
 <form>
 	<title>Accordion</title>
-	<description></description>
+	<description />
 	<objectType>component</objectType>
 	<content-type>/component/accordion</content-type>
 	<imageThumbnail />
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath />
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value />
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Accordion Properties</title>
-			<description></description>
+			<description />
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -89,9 +89,9 @@
 				<field>
 					<type>repeat</type>
 					<id>items_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Items</title>
-					<description></description>
+					<description />
 					<minOccurs>1</minOccurs>
 					<maxOccurs>*</maxOccurs>
 					<properties>
@@ -110,11 +110,11 @@
 				<field>
 					<type>input</type>
 					<id>header_s</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Header</title>
-					<description></description>
+					<description />
 					<defaultValue>Header</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>size</name>
@@ -128,7 +128,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
@@ -158,20 +158,20 @@
 				<field>
 					<type>node-selector</type>
 					<id>content_o</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Content</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description />
+					<defaultValue />
+					<help />
 					<properties>
 						<property>
 							<name>minSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value />
 							<type>int</type>
 						</property>
 						<property>
@@ -181,22 +181,22 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>disableFlattening</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useSingleValueFilename</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>useMVS</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -214,21 +214,22 @@
 		</section>
 		<section>
 			<title>Advanced Options</title>
-			<description></description>
+			<description />
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
 					<type>checkbox</type>
 					<id>flush_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Flush</title>
-					<description>Enabling flush removed the default background color, some borders, and some rounded corners to render accordions edge-to-edge with their parent container.</description>
+					<description
+          >Enabling flush removed the default background color, some borders, and some rounded corners to render accordions edge-to-edge with their parent container.</description>
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -243,15 +244,16 @@
 				<field>
 					<type>checkbox</type>
 					<id>alwaysOpen_b</id>
-					<iceId></iceId>
+					<iceId />
 					<title>Always Open</title>
-					<description>Enabling it makes accordion items to stay open when another item is opened.</description>
+					<description
+          >Enabling it makes accordion items to stay open when another item is opened.</description>
 					<defaultValue>false</defaultValue>
-					<help></help>
+					<help />
 					<properties>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value />
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -309,7 +311,7 @@
 						</property>
 						<property>
 							<name>tags</name>
-							<value></value>
+							<value />
 								<type>string</type>
 						</property>
 					</properties>
