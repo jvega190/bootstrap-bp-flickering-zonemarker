@@ -8,15 +8,18 @@
 } />
 
 <#if contentModel.staticBackdrop_b>
-    <#assign modalAttributes = modalAttributes + {
-      'data-bs-backdrop': 'static',
-      'data-bs-keyboard': 'false'
-    } />
+  <#assign modalAttributes = modalAttributes + {
+    'data-bs-backdrop': 'static',
+    'data-bs-keyboard': 'false'
+  } />
+</#if>
+
+<#if contentModel.id_s?has_content>
+  <#assign modalAttributes = modalAttributes + { "id": "${contentModel.id_s}" } />
 </#if>
 
 <@crafter.div
   class="modal ice-modal fade"
-  id="${contentModel.id_s!''}"
   tabindex="-1"
   $attributes=modalAttributes
 >

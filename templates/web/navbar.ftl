@@ -2,7 +2,7 @@
 
 <#assign objectId = contentModel.objectId />
 
-<@crafter.nav class="navbar navbar-expand-lg navbar-${contentModel.textColor_s} bg-${contentModel.backgroundColor_s} ${contentModel.placement_s}">
+<@crafter.nav class="navbar navbar-expand-lg navbar-${contentModel.textColor_s!''} bg-${contentModel.backgroundColor_s!''} ${contentModel.placement_s!''}">
   <div class="container-fluid">
     <a class="ice-btn navbar-brand" <#if contentModel.brand_link_s?has_content>href="${contentModel.brand_link_s}"</#if>>
       <#if contentModel.brandImage_s?has_content>

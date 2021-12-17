@@ -1,14 +1,19 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<#assign rootAttributes = {
+  "aria-labelledby": "offcanvas-${contentModel.objectId}-label",
+  "data-bs-scroll": "${contentModel.enableScroll_b?then('true', 'false')}",
+  "data-bs-backdrop": "${contentModel.showBackdrop_b?then('true', 'false')}"
+} />
+
+<#if contentModel.id_s?has_content>
+  <#assign rootAttributes = rootAttributes + { "id": "${contentModel.id_s}" } />
+</#if>
+
 <@crafter.div
   class="offcanvas offcanvas-${contentModel.placement_s}"
   tabindex="-1"
-  id="${contentModel.id_s}"
-  $attributes={
-    "aria-labelledby": "offcanvas-${contentModel.objectId}-label",
-    "data-bs-scroll": "${contentModel.enableScroll_b?then('true', 'false')}",
-    "data-bs-backdrop": "${contentModel.showBackdrop_b?then('true', 'false')}"
-  }
+  $attributes=rootAttributes
 >
   <div class="offcanvas-header">
     <@crafter.h5

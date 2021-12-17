@@ -6,6 +6,6 @@
     href="${contentModel.link_s!''}"
     class="link-${contentModel.color_s} ${crafter.emptyFieldClass(contentModel.text_s)}"
   >
-    ${contentModel.text_s}
+    ${contentModel.text_s!''}
   </@crafter.a>
 </@crafter.span>
