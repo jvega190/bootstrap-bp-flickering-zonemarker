@@ -9,7 +9,7 @@
   // Populate buttonsProps
   buttons.forEach((button) => {
     const id = button.getAttribute('id');
-    if (Boolean(id)) {
+    if (id) {
       const bsProps = getButtonBSProps(button);
       const buttonBSProps = {};
       bsProps.forEach((prop) => {
