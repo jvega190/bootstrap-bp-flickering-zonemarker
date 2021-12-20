@@ -4,6 +4,7 @@
 <@crafter.span>
   <@crafter.breadcrumb
     url=contentModel.storeUrl
+    root='/site'
     containerElementClass="breadcrumb"
     itemWrapperClass="breadcrumb-item"
     navElementAttributes={'style': '--bs-breadcrumb-divider: \'' + divider + '\''}
