@@ -27,7 +27,7 @@
     </h2>
     <div
       id="collapse-${objectId}-${index}"
-      class="accordion-collapse collapse ${(index == 0)?then('show', '')}"
+      class="ice-accordion-collapse accordion-collapse collapse ${(index == 0)?then('show', '')}"
       aria-labelledby="heading-${objectId}-${index}"
       ${(contentModel.alwaysOpen_b)?then('', 'data-bs-parent="#accordion-${objectId}"')}
     >
