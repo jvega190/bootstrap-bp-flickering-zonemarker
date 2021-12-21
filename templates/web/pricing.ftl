@@ -24,7 +24,10 @@
       </@crafter.renderRepeatGroup>
 
       <#if contentModel.buttonLabel_s?has_content>
-        <a class="w-100 btn btn-lg btn${contentModel.outlinedButton_b?then('-outline', '')}-${contentModel.buttonColor_s!''}">
+        <a
+          class="w-100 btn btn-lg btn${contentModel.outlinedButton_b?then('-outline', '')}-${contentModel.buttonColor_s!''}"
+          href="${contentModel.buttonLink_s!''}"
+        >
           ${contentModel.buttonLabel_s}
         </a>
       </#if>
