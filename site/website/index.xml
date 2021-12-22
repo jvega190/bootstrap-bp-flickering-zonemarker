@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-12-16T17:16:39.592Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:26:06.827Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-12-22T16:26:17.308Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -34,11 +34,11 @@
         <file-name>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2021-12-22T16:26:06.825Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-12-22T16:26:06.825Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2021-12-22T16:26:17.308Z</lastModifiedDate_dt>
         <objectId>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e</objectId>
         <items_o item-list="true">
           <item>
-            <header_s>Header</header_s>
+            <header_s><![CDATA[H]]></header_s>
             <content_o/>
           </item>
         </items_o>
