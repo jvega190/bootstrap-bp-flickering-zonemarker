@@ -24,7 +24,7 @@
         <internal-name>New Row</internal-name>
         <file-name>5cff48e0-0fa7-46d1-9a93-7eb899a7526e.xml</file-name>
         <createdDate_dt>2021-12-22T16:21:15.935Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-12-22T16:21:48.797Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2021-12-22T16:23:55.314Z</lastModifiedDate_dt>
         <objectId>5cff48e0-0fa7-46d1-9a93-7eb899a7526e</objectId>
         <columns_o item-list="true">
           <item>
@@ -71,7 +71,25 @@
             </items_o>
           </item>
           <item>
-            <items_o item-list="true"/>
+            <items_o item-list="true">
+              <item datasource="TODO" inline="true">
+                <key>a19bc1ac-f007-41af-bbb9-bb4e4be9c1a8</key>
+                <value>New Form</value>
+                <component id="a19bc1ac-f007-41af-bbb9-bb4e4be9c1a8">
+                  <content-type>/component/form</content-type>
+                  <display-template>/templates/web/form.ftl</display-template>
+                  <internal-name><![CDATA[New Form]]></internal-name>
+                  <file-name>a19bc1ac-f007-41af-bbb9-bb4e4be9c1a8.xml</file-name>
+                  <merge-strategy>inherit-levels</merge-strategy>
+                  <createdDate_dt>2021-12-22T16:23:55.305Z</createdDate_dt>
+                  <lastModifiedDate_dt>2021-12-22T16:23:55.305Z</lastModifiedDate_dt>
+                  <objectId>a19bc1ac-f007-41af-bbb9-bb4e4be9c1a8</objectId>
+                  <title_s/>
+                  <fields_o/>
+                  <submitLabel_s>Submit</submitLabel_s>
+                </component>
+              </item>
+            </items_o>
             <size_s/>
             <displayContents_b>false</displayContents_b>
           </item>
@@ -86,5 +104,5 @@
   <createdDate>2021-12-22T16:20:22.163Z</createdDate>
   <createdDate_dt>2021-12-22T16:20:22.163Z</createdDate_dt>
   <lastModifiedDate>2021-12-22T16:21:11.115Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:23:47.569Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-12-22T16:23:55.314Z</lastModifiedDate_dt>
 </page>
