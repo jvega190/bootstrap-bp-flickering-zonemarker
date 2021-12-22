@@ -41,10 +41,31 @@
                   <file-name>9eac4c6c-d8e5-4efc-a77f-fa5cda86da70.xml</file-name>
                   <merge-strategy>inherit-levels</merge-strategy>
                   <createdDate_dt>2021-12-22T16:21:48.793Z</createdDate_dt>
-                  <lastModifiedDate_dt>2021-12-22T16:21:48.793Z</lastModifiedDate_dt>
+                  <lastModifiedDate_dt>2021-12-22T16:23:47.569Z</lastModifiedDate_dt>
                   <objectId>9eac4c6c-d8e5-4efc-a77f-fa5cda86da70</objectId>
                   <isFluid_b>true</isFluid_b>
-                  <components_o/>
+                  <components_o>
+                    <item datasource="TODO" inline="true">
+                      <key>d1657eaf-08dc-4224-a840-7db2f688976c</key>
+                      <value>New Hero</value>
+                      <component id="d1657eaf-08dc-4224-a840-7db2f688976c">
+                        <content-type>/component/hero</content-type>
+                        <display-template>/templates/web/heroComponent.ftl</display-template>
+                        <internal-name><![CDATA[New Hero]]></internal-name>
+                        <file-name>d1657eaf-08dc-4224-a840-7db2f688976c.xml</file-name>
+                        <merge-strategy>inherit-levels</merge-strategy>
+                        <createdDate_dt>2021-12-22T16:23:47.562Z</createdDate_dt>
+                        <lastModifiedDate_dt>2021-12-22T16:23:47.562Z</lastModifiedDate_dt>
+                        <objectId>d1657eaf-08dc-4224-a840-7db2f688976c</objectId>
+                        <image_s/>
+                        <title_s/>
+                        <copy_t/>
+                        <buttons_o/>
+                        <imageWidth_i>200</imageWidth_i>
+                        <imageHeight_i>100</imageHeight_i>
+                      </component>
+                    </item>
+                  </components_o>
                 </component>
               </item>
             </items_o>
@@ -65,5 +86,5 @@
   <createdDate>2021-12-22T16:20:22.163Z</createdDate>
   <createdDate_dt>2021-12-22T16:20:22.163Z</createdDate_dt>
   <lastModifiedDate>2021-12-22T16:21:11.115Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:21:48.797Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-12-22T16:23:47.569Z</lastModifiedDate_dt>
 </page>
