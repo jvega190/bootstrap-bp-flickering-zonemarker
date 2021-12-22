@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-12-16T17:16:39.592Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:25:20.764Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-12-22T16:25:24.781Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -113,14 +113,11 @@
                         <folder-name/>
                         <internal-name>Left col paragraph</internal-name>
                         <isLead_b>false</isLead_b>
-                        <copy_t>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-													eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </copy_t>
+                        <copy_t><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.ffff]]></copy_t>
                         <createdDate>2021-10-07T09:06:30.728Z</createdDate>
                         <createdDate_dt>2021-10-07T09:06:30.728Z</createdDate_dt>
                         <lastModifiedDate>2021-10-07T09:06:30.728Z</lastModifiedDate>
-                        <lastModifiedDate_dt>2021-10-07T09:06:30.728Z</lastModifiedDate_dt>
+                        <lastModifiedDate_dt>2021-12-22T16:25:24.781Z</lastModifiedDate_dt>
                       </component>
                     </item>
                     <item inline="true">
