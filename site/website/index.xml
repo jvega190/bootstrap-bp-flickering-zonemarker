@@ -1,56 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/entry</content-type>
-  <display-template>/templates/web/entry.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <placeInNav>false</placeInNav>
-  <file-name>index.xml</file-name>
-  <internal-name>Home</internal-name>
-  <orderDefault_f>-1</orderDefault_f>
-  <objectGroupId>8d7f</objectGroupId>
-  <objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
-  <folder-name/>
-  <createdDate>2017-1-31T16:18:14.000Z</createdDate>
-  <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-  <lastModifiedDate>2021-12-16T17:16:39.592Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:26:17.308Z</lastModifiedDate_dt>
-  <title_t>Crafter CMS Bootstrap Blueprint</title_t>
-  <disabled>false</disabled>
-  <mainContent_o item-list="true">
-    <item>
-      <key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
-      <value>Home Hero</value>
-      <include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item datasource="TODO" inline="true">
-      <key>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e</key>
-      <value>New Accordion</value>
-      <component id="f8210cf5-0a88-4c08-a6b9-1ba87e24f10e">
-        <content-type>/component/accordion</content-type>
-        <display-template>/templates/web/accordion.ftl</display-template>
-        <internal-name><![CDATA[New Accordion]]></internal-name>
-        <file-name>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2021-12-22T16:26:06.825Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-12-22T16:26:17.308Z</lastModifiedDate_dt>
-        <objectId>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e</objectId>
-        <items_o item-list="true">
-          <item>
-            <header_s><![CDATA[H]]></header_s>
-            <content_o/>
-          </item>
-        </items_o>
-        <flush_b>false</flush_b>
-        <alwaysOpen_b>false</alwaysOpen_b>
-      </component>
-    </item>
-    <item inline="true">
-      <key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
-      <value>Container</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
+	<content-type>/page/entry</content-type>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Home</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>8d7f</objectGroupId>
+	<objectId>8d7f21fa-5e09-00aa-8340-853b7db302da</objectId>
+	<folder-name/>
+	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
+	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
+	<lastModifiedDate>2021-12-22T16:26:28.596Z</lastModifiedDate>
+	<lastModifiedDate_dt>2021-12-22T16:26:28.596Z</lastModifiedDate_dt>
+	<title_t>Crafter CMS Bootstrap Blueprint</title_t>
+	<disabled>false</disabled>
+	<mainContent_o item-list="true">	<item>	<key>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</key>
+	<value>Home Hero</value>
+	<include>/site/components/component_hero/bd283e3b-3484-6b9e-b2d5-2a9e87128b69.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="TODO" inline="true">	<key>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e</key>
+	<value>New Accordion</value>
+<component id="f8210cf5-0a88-4c08-a6b9-1ba87e24f10e">
+	<content-type>/component/accordion</content-type>
+	<display-template>/templates/web/accordion.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Accordion</internal-name>
+	<file-name>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e.xml</file-name>
+	<createdDate_dt>2021-12-22T16:26:30.411Z</createdDate_dt>
+	<lastModifiedDate_dt>2021-12-22T16:26:30.411Z</lastModifiedDate_dt>
+	<objectId>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e</objectId>
+	<items_o item-list="true">	<item>	<header_s>Sumer's Header</header_s>
+	<content_o item-list="true"/>
+	</item></items_o>
+	<flush_b>false</flush_b>
+	<alwaysOpen_b>false</alwaysOpen_b>
+	<folder-name/>
+	<createdDate>2021-12-22T16:26:30.411Z</createdDate>
+	<lastModifiedDate>2021-12-22T16:26:30.411Z</lastModifiedDate>
+</component>
+	</item>	<item inline="true">	<key>2e8761a9-1268-581b-f8d0-52cad6a73e0a</key>
+	<value>Container</value>
+	<disableFlattening>false</disableFlattening>
+<component id="2e8761a9-1268-581b-f8d0-52cad6a73e0a">
         <content-type>/component/container</content-type>
         <display-template>/templates/web/containerComponent.ftl</display-template>
         <no-template-required>false</no-template-required>
@@ -269,6 +264,5 @@
         <lastModifiedDate>2021-11-11T15:50:46.271Z</lastModifiedDate>
         <lastModifiedDate_dt>2021-11-11T15:50:46.271Z</lastModifiedDate_dt>
       </component>
-    </item>
-  </mainContent_o>
+	</item></mainContent_o>
 </page>
