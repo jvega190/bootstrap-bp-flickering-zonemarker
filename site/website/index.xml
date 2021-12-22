@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-12-16T17:16:39.592Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:19:36.370Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-12-22T16:24:32.634Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -105,6 +105,32 @@
                       </component>
                     </item>
                     <item inline="true">
+                      <key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
+                      <value>Right Col Image</value>
+                      <disableFlattening>false</disableFlattening>
+                      <component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
+                        <content-type>/component/image</content-type>
+                        <display-template>/templates/web/imageComponent.ftl</display-template>
+                        <no-template-required/>
+                        <merge-strategy>inherit-levels</merge-strategy>
+                        <objectGroupId>eb50</objectGroupId>
+                        <objectId>eb50be40-5755-5dfa-0ad0-15367b5cc685</objectId>
+                        <file-name>eb50be40-5755-5dfa-0ad0-15367b5cc685.xml</file-name>
+                        <folder-name/>
+                        <internal-name>Right Col Image</internal-name>
+                        <image_s>https://place-hold.it/300</image_s>
+                        <createdDate>2021-10-06T15:48:52.103Z</createdDate>
+                        <createdDate_dt>2021-10-06T15:48:52.103Z</createdDate_dt>
+                        <lastModifiedDate>2021-12-15T18:25:01.011Z</lastModifiedDate>
+                        <lastModifiedDate_dt>2021-12-15T18:25:01.011Z</lastModifiedDate_dt>
+                        <alt_s/>
+                        <variant_s/>
+                        <objectFit_s/>
+                        <width_i/>
+                        <height_i/>
+                      </component>
+                    </item>
+                    <item inline="true">
                       <key>5a06e244-64f4-4380-8619-1c726fe38e92</key>
                       <value>New Carousel</value>
                       <disableFlattening>false</disableFlattening>
@@ -165,32 +191,7 @@
                         <color_s>primary</color_s>
                       </component>
                     </item>
-                    <item inline="true">
-                      <key>eb50be40-5755-5dfa-0ad0-15367b5cc685</key>
-                      <value>Right Col Image</value>
-                      <disableFlattening>false</disableFlattening>
-                      <component id="eb50be40-5755-5dfa-0ad0-15367b5cc685">
-                        <content-type>/component/image</content-type>
-                        <display-template>/templates/web/imageComponent.ftl</display-template>
-                        <no-template-required/>
-                        <merge-strategy>inherit-levels</merge-strategy>
-                        <objectGroupId>eb50</objectGroupId>
-                        <objectId>eb50be40-5755-5dfa-0ad0-15367b5cc685</objectId>
-                        <file-name>eb50be40-5755-5dfa-0ad0-15367b5cc685.xml</file-name>
-                        <folder-name/>
-                        <internal-name>Right Col Image</internal-name>
-                        <image_s>https://place-hold.it/300</image_s>
-                        <createdDate>2021-10-06T15:48:52.103Z</createdDate>
-                        <createdDate_dt>2021-10-06T15:48:52.103Z</createdDate_dt>
-                        <lastModifiedDate>2021-12-15T18:25:01.011Z</lastModifiedDate>
-                        <lastModifiedDate_dt>2021-12-15T18:25:01.011Z</lastModifiedDate_dt>
-                        <alt_s/>
-                        <variant_s/>
-                        <objectFit_s/>
-                        <width_i/>
-                        <height_i/>
-                      </component>
-                    </item>
+
                     <item inline="true">
                       <key>4b68e47a-07a3-134f-a540-1b7907080cb0</key>
                       <value>Right col paragraph</value>
