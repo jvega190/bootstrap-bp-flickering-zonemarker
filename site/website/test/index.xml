@@ -1,44 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/entry</content-type>
-	<display-template>/templates/web/entry.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>0ab0</objectGroupId>
-	<objectId>0ab06457-237f-8270-532f-6ecdb1729c25</objectId>
-	<file-name>index.xml</file-name>
-	<folder-name>test</folder-name>
-	<internal-name>test</internal-name>
-	<title_t/>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
-	<mainContent_o item-list="true">	<item datasource="TODO" inline="true">	<key>5cff48e0-0fa7-46d1-9a93-7eb899a7526e</key>
-	<value>New Row</value>
-<component id="5cff48e0-0fa7-46d1-9a93-7eb899a7526e">
-	<content-type>/component/row</content-type>
-	<display-template>/templates/web/rowComponent.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Row</internal-name>
-	<file-name>5cff48e0-0fa7-46d1-9a93-7eb899a7526e.xml</file-name>
-	<createdDate_dt>2021-12-22T16:21:15.935Z</createdDate_dt>
-	<lastModifiedDate_dt>2021-12-22T16:21:15.935Z</lastModifiedDate_dt>
-	<objectId>5cff48e0-0fa7-46d1-9a93-7eb899a7526e</objectId>
-	<columns_o item-list="true">	<item>	<size_s/>
-	<displayContents_b>false</displayContents_b>
-	<items_o item-list="true"/>
-	</item>	<item>	<items_o item-list="true"/>
-	<size_s/>
-	<displayContents_b>false</displayContents_b>
-	</item></columns_o>
-	<folder-name/>
-	<createdDate>2021-12-22T16:21:15.935Z</createdDate>
-	<lastModifiedDate>2021-12-22T16:21:15.935Z</lastModifiedDate>
-</component>
-	</item></mainContent_o>
-	<disabled>false</disabled>
-	<createdDate>2021-12-22T16:20:22.163Z</createdDate>
-	<createdDate_dt>2021-12-22T16:20:22.163Z</createdDate_dt>
-	<lastModifiedDate>2021-12-22T16:21:11.115Z</lastModifiedDate>
-	<lastModifiedDate_dt>2021-12-22T16:21:11.115Z</lastModifiedDate_dt>
+  <content-type>/page/entry</content-type>
+  <display-template>/templates/web/entry.ftl</display-template>
+  <no-template-required/>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <objectGroupId>0ab0</objectGroupId>
+  <objectId>0ab06457-237f-8270-532f-6ecdb1729c25</objectId>
+  <file-name>index.xml</file-name>
+  <folder-name>test</folder-name>
+  <internal-name>test</internal-name>
+  <title_t/>
+  <placeInNav>false</placeInNav>
+  <orderDefault_f>-1</orderDefault_f>
+  <mainContent_o item-list="true">
+    <item datasource="TODO" inline="true">
+      <key>5cff48e0-0fa7-46d1-9a93-7eb899a7526e</key>
+      <value>New Row</value>
+      <component id="5cff48e0-0fa7-46d1-9a93-7eb899a7526e">
+        <content-type>/component/row</content-type>
+        <display-template>/templates/web/rowComponent.ftl</display-template>
+        <no-template-required/>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <internal-name>New Row</internal-name>
+        <file-name>5cff48e0-0fa7-46d1-9a93-7eb899a7526e.xml</file-name>
+        <createdDate_dt>2021-12-22T16:21:15.935Z</createdDate_dt>
+        <lastModifiedDate_dt>2021-12-22T16:21:48.797Z</lastModifiedDate_dt>
+        <objectId>5cff48e0-0fa7-46d1-9a93-7eb899a7526e</objectId>
+        <columns_o item-list="true">
+          <item>
+            <size_s/>
+            <displayContents_b>false</displayContents_b>
+            <items_o item-list="true">
+              <item datasource="TODO" inline="true">
+                <key>9eac4c6c-d8e5-4efc-a77f-fa5cda86da70</key>
+                <value>New Container</value>
+                <component id="9eac4c6c-d8e5-4efc-a77f-fa5cda86da70">
+                  <content-type>/component/container</content-type>
+                  <display-template>/templates/web/containerComponent.ftl</display-template>
+                  <internal-name><![CDATA[New Container]]></internal-name>
+                  <file-name>9eac4c6c-d8e5-4efc-a77f-fa5cda86da70.xml</file-name>
+                  <merge-strategy>inherit-levels</merge-strategy>
+                  <createdDate_dt>2021-12-22T16:21:48.793Z</createdDate_dt>
+                  <lastModifiedDate_dt>2021-12-22T16:21:48.793Z</lastModifiedDate_dt>
+                  <objectId>9eac4c6c-d8e5-4efc-a77f-fa5cda86da70</objectId>
+                  <isFluid_b>true</isFluid_b>
+                  <components_o/>
+                </component>
+              </item>
+            </items_o>
+          </item>
+          <item>
+            <items_o item-list="true"/>
+            <size_s/>
+            <displayContents_b>false</displayContents_b>
+          </item>
+        </columns_o>
+        <folder-name/>
+        <createdDate>2021-12-22T16:21:15.935Z</createdDate>
+        <lastModifiedDate>2021-12-22T16:21:15.935Z</lastModifiedDate>
+      </component>
+    </item>
+  </mainContent_o>
+  <disabled>false</disabled>
+  <createdDate>2021-12-22T16:20:22.163Z</createdDate>
+  <createdDate_dt>2021-12-22T16:20:22.163Z</createdDate_dt>
+  <lastModifiedDate>2021-12-22T16:21:11.115Z</lastModifiedDate>
+  <lastModifiedDate_dt>2021-12-22T16:21:48.797Z</lastModifiedDate_dt>
 </page>
