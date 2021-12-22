@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-12-16T17:16:39.592Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:25:14.230Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-12-22T16:25:20.764Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -40,6 +40,24 @@
         <internal-name>Container</internal-name>
         <isFluid_b>false</isFluid_b>
         <components_o item-list="true">
+          <item datasource="TODO" inline="true">
+            <key>8bcf83be-f55b-41dc-9214-f869daa96997</key>
+            <value>New Blockquote</value>
+            <component id="8bcf83be-f55b-41dc-9214-f869daa96997">
+              <content-type>/component/blockquote</content-type>
+              <display-template>/templates/web/blockquote.ftl</display-template>
+              <internal-name><![CDATA[New Blockquote]]></internal-name>
+              <file-name>8bcf83be-f55b-41dc-9214-f869daa96997.xml</file-name>
+              <merge-strategy>inherit-levels</merge-strategy>
+              <createdDate_dt>2021-12-22T16:19:36.365Z</createdDate_dt>
+              <lastModifiedDate_dt>2021-12-22T16:25:14.229Z</lastModifiedDate_dt>
+              <objectId>8bcf83be-f55b-41dc-9214-f869daa96997</objectId>
+              <quote_s><![CDATA[Po muharup copi hulopo bezubecomi. Lirubuqila mufitifedu viroreg wefatamobe wedam raduwiku kerak. Lona ru doneb xibidec xucupo xu buqune lo bicelajuta layegib durimirab qub. Mupel.]]></quote_s>
+              <author_s/>
+              <textPosition_s>center</textPosition_s>
+              <color_s>primary</color_s>
+            </component>
+          </item>
           <item inline="true">
             <key>f830b94f-a6e9-09eb-9978-daafbfdf63ef</key>
             <value>Row</value>
@@ -79,24 +97,7 @@
                         <headingLevel_s>h2</headingLevel_s>
                       </component>
                     </item>
-                    <item datasource="TODO" inline="true">
-                      <key>8bcf83be-f55b-41dc-9214-f869daa96997</key>
-                      <value>New Blockquote</value>
-                      <component id="8bcf83be-f55b-41dc-9214-f869daa96997">
-                        <content-type>/component/blockquote</content-type>
-                        <display-template>/templates/web/blockquote.ftl</display-template>
-                        <internal-name><![CDATA[New Blockquote]]></internal-name>
-                        <file-name>8bcf83be-f55b-41dc-9214-f869daa96997.xml</file-name>
-                        <merge-strategy>inherit-levels</merge-strategy>
-                        <createdDate_dt>2021-12-22T16:19:36.365Z</createdDate_dt>
-                        <lastModifiedDate_dt>2021-12-22T16:25:14.229Z</lastModifiedDate_dt>
-                        <objectId>8bcf83be-f55b-41dc-9214-f869daa96997</objectId>
-                        <quote_s><![CDATA[Po muharup copi hulopo bezubecomi. Lirubuqila mufitifedu viroreg wefatamobe wedam raduwiku kerak. Lona ru doneb xibidec xucupo xu buqune lo bicelajuta layegib durimirab qub. Mupel.]]></quote_s>
-                        <author_s/>
-                        <textPosition_s>center</textPosition_s>
-                        <color_s>primary</color_s>
-                      </component>
-                    </item>
+
                     <item inline="true">
                       <key>fff36233-34d9-f476-0a35-00b507b9420b</key>
                       <value>Left col paragraph</value>
