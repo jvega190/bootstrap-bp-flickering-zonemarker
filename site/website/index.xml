@@ -14,7 +14,7 @@
   <createdDate>2017-1-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-12-22T16:27:08.749Z</lastModifiedDate>
-  <lastModifiedDate_dt>2021-12-22T16:27:36.169Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2021-12-22T16:27:39.648Z</lastModifiedDate_dt>
   <title_t>Crafter CMS Bootstrap Blueprint</title_t>
   <disabled>false</disabled>
   <mainContent_o item-list="true">
@@ -35,7 +35,7 @@
         <internal-name>New Accordion</internal-name>
         <file-name>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e.xml</file-name>
         <createdDate_dt>2021-12-22T16:26:30.411Z</createdDate_dt>
-        <lastModifiedDate_dt>2021-12-22T16:27:36.169Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2021-12-22T16:27:39.648Z</lastModifiedDate_dt>
         <objectId>f8210cf5-0a88-4c08-a6b9-1ba87e24f10e</objectId>
         <items_o item-list="true">
           <item>
@@ -104,7 +104,24 @@
           </item>
           <item>
             <header_s>Header</header_s>
-            <content_o item-list="true"/>
+            <content_o item-list="true">
+              <item datasource="TODO" inline="true">
+                <key>d6ca0c66-f339-4435-b221-6d869a6fbabd</key>
+                <value>New Paragraph</value>
+                <component id="d6ca0c66-f339-4435-b221-6d869a6fbabd">
+                  <content-type>/component/paragraph</content-type>
+                  <display-template>/templates/web/paragraphComponent.ftl</display-template>
+                  <internal-name><![CDATA[New Paragraph]]></internal-name>
+                  <file-name>d6ca0c66-f339-4435-b221-6d869a6fbabd.xml</file-name>
+                  <merge-strategy>inherit-levels</merge-strategy>
+                  <createdDate_dt>2021-12-22T16:27:39.647Z</createdDate_dt>
+                  <lastModifiedDate_dt>2021-12-22T16:27:39.647Z</lastModifiedDate_dt>
+                  <objectId>d6ca0c66-f339-4435-b221-6d869a6fbabd</objectId>
+                  <isLead_b>false</isLead_b>
+                  <copy_t>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</copy_t>
+                </component>
+              </item>
+            </content_o>
           </item>
           <item>
             <header_s>Header</header_s>
